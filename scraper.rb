@@ -1,3 +1,4 @@
+require 'scraperwiki'
 require 'mechanize'
 
 starting_url = "http://pdonline.scenicrim.qld.gov.au/Modules/Applicationmaster/default.aspx?page=found&1=thisweek&4a=COM.Bd',%20'COM.Bn',%20'COM.Ip','pbeDevComp','DevEnf','MC.Bd1',%20'MC.Bd2',%20'MC.Bn',%20'MC.I','RL.Bd1','RL.Bd2','RL.Bn','RL.IP','OW.Bd1','OW.Bd2','OW.Bn','OW.Ip','Subdiv&6=F"
@@ -31,7 +32,7 @@ def scrape_table(doc, comment_url)
       'description' => CGI::unescapeHTML(info_page.at('div#lblDetails').inner_html.split('<br>')[0].split('Description: ')[1].strip),
       'date_scraped' => Date.today.to_s
     }
-    if ScraperWiki.select("* from swdata where `council_reference`='#{record['council_reference']}'").empty? 
+    if ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? 
       ScraperWiki.save_sqlite(['council_reference'], record)
     else
       puts "Skipping already saved record " + record['council_reference']
