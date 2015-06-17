@@ -1,0 +1,3 @@
+[submodule "lib_icon_rest_xml"]
+	path = lib_icon_rest_xml
+	url = https://github.com/planningalerts-scrapers/lib_icon_rest_xml/
