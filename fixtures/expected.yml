@@ -1,0 +1,142 @@
+---
+- council_reference: BuildEnv19/010
+  description: Building Envelope Amendment
+  date_received: '2019-05-28'
+  address: 163 - 169 Wongawallan Road, TAMBORINE MOUNTAIN QLD 4272
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328732
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328732
+- council_reference: MCU19/049
+  description: Dual Occupancy (Residential Use)
+  date_received: '2019-05-10'
+  address: 633 Knapp Creek Road, KNAPP CREEK QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327922
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327922
+- council_reference: MCU19/050
+  description: House (Residential Use)
+  date_received: '2019-05-13'
+  address: 14 - 22 Devon Drive, TAMBORINE QLD 4270
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327971
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327971
+- council_reference: MCU19/051
+  description: Tourist Cabins (Tourist Use)
+  date_received: '2019-05-16'
+  address: 1 - 15 Slingsby Road, TAMBORINE MOUNTAIN QLD 4272
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328192
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328192
+- council_reference: MCU19/052
+  description: Shed (Residential Use)
+  date_received: '2019-05-21'
+  address: 163 - 169 Wongawallan Road, TAMBORINE MOUNTAIN QLD 4272
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328393
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328393
+- council_reference: MCU19/053
+  description: Food Premises (Business Use)
+  date_received: '2019-05-22'
+  address: 32 Christie Street, CANUNGRA QLD 4275
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328449
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328449
+- council_reference: MCU19/054
+  description: Minor Change to Approval
+  date_received: '2019-05-23'
+  address: 1 Pine Street, CANUNGRA QLD 4275
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328532
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328532
+- council_reference: MCU19/055
+  description: Extension of Time for Relevant Period
+  date_received: '2019-05-27'
+  address: 28 Alice Street, BEAUDESERT QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328663
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328663
+- council_reference: MCU19/056
+  description: Industry - Low Impact (Industrial Use)
+  date_received: '2019-06-03'
+  address: 6371 Mt Lindesay Highway, VERESDALE QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328966
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328966
+- council_reference: MCU19/057
+  description: Extension of Time for Relevant Period
+  date_received: '2019-06-06'
+  address: Regal Drive, CANUNGRA QLD 4275
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329147
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329147
+- council_reference: OPW19/011
+  description: Roadworks and Clearing Vegetation
+  date_received: '2019-05-10'
+  address: Hohenhaus Road, MOOGERAH QLD 4309
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327900
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327900
+- council_reference: OPW19/012
+  description: Signage
+  date_received: '2019-05-15'
+  address: Salisbury Avenue, KOORALBYN QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328139
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328139
+- council_reference: OPW19/013
+  description: Electrical Reticulation
+  date_received: '2019-05-20'
+  address: 2426 Beaudesert-Beenleigh Road, TAMBORINE QLD 4270
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328346
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328346
+- council_reference: OPW19/014
+  description: Electrical Reticulation
+  date_received: '2019-05-24'
+  address: 27 - 29 Settlers Drive, KALBAR QLD 4309
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328563
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328563
+- council_reference: OPW19/015
+  description: Extension of Time for Relevant Period
+  date_received: '2019-06-06'
+  address: 8907 Mt Lindesay Highway, TAMROOKUM QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329172
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329172
+- council_reference: POS19/013
+  description: Standard Format Plan
+  date_received: '2019-05-15'
+  address: 433 - 439 Long Road, TAMBORINE MOUNTAIN QLD 4272
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328074
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328074
+- council_reference: POS19/014
+  description: Building Format Plan
+  date_received: '2019-05-23'
+  address: 15 Hawthorn Street, BEAUDESERT QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328477
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328477
+- council_reference: POS19/015
+  description: Building Format Plan
+  date_received: '2019-05-29'
+  address: 18 Hawthorn Street, BEAUDESERT QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328777
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328777
+- council_reference: RAL19/017
+  description: Development Permit for Reconfiguring a Lot Boundary Realignment (3
+    into 3)
+  date_received: '2019-05-14'
+  address: 3338 Kerry Road, DARLINGTON QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328033
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328033
+- council_reference: RAL19/018
+  description: Boundary Realignment
+  date_received: '2019-05-31'
+  address: 60 Tequesta Drive, BEAUDESERT QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328900
+  comment_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328900

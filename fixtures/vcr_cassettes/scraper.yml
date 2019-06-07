@@ -1,0 +1,1011 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 07 Jun 2019 02:27:58 GMT
+      Set-Cookie:
+      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z; path=/; HttpOnly
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '9319'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: post
+    uri: https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+    body:
+      encoding: UTF-8
+      string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBgIFDxYCHgRUZXh0BTM8YSBocmVmPSIuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Ij5Mb2dpbjwvYT5kAgkPFgIfAGVkAhEPZBYCAgEPZBYEAgEPFgIfAAXTJjxkaXYgc3R5bGU9IndpZHRoOjk1JTsgaGVpZ2h0OjM1MHB4OyBvdmVyZmxvdzphdXRvOyBib3JkZXI6c29saWQgMXB4ICNEREQ7IHBhZGRpbmc6M3B4OyI%2BDQo8cD48c3Ryb25nPlRlcm1zIGFuZCBDb25kaXRpb25zPC9zdHJvbmc%2BPHA%2BDQoNCjxwPllvdXIgdXNlIG9mIHRoZSBEZXZlbG9wbWVudCBBcHBsaWNhdGlvbiBhbmQgUHJvcGVydHkgT25saW5lIHNlcnZpY2UgKCJEQVAgT25saW5lIikgaXMgc3ViamVjdCB0byANCg0KYW5kIGNvbmRpdGlvbmFsIHVwb24geW91ciBhY2NlcHRhbmNlIG9mIHRoZXNlIFRlcm1zIG9mIFVzZS4NCjxici8%2BDQpQbGVhc2UgcmVhZCBhbmQgYWdyZWUgdG8gdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zIGJlbG93IHRvIGFjY2VzcyB0aGUgc2l0ZS4gU2hvdWxkIHlvdSBoYXZlIGFueSANCg0KcXVlc3Rpb25zLCBwbGVhc2UgY29udGFjdCBDb3VuY2lsJ3MgUGxhbm5pbmcgRGVwYXJ0bWVudCBvbiA1NTQwIDUxMTEuDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5EaXNjbGFpbWVyPC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpUaGUgaW5mb3JtYXRpb24gcHJvdmlkZWQgYnkgREFQIE9ubGluZSBpcyBtYWRlIGF2YWlsYWJsZSBhcyBhIGdlbmVyYWwgcmVmZXJlbmNlIHNvdXJjZSBvbmx5Lg0KPGJyLz4NCkRBUCBPbmxpbmUgaXMgbm90IGludGVuZGVkIHRvIGJlIHVzZWQsIGZvciBmb3JtYWwgcHVycG9zZXMgc3VjaCBhcyBmb3IgdGhlIHB1cnBvc2VzIG9mIHByb3BlcnR5IA0KDQp0cmFuc2FjdGlvbnMgb3Igc2V0dGxlbWVudHMuIEFjY2VzcyB0byBkb2N1bWVudHMgYW5kIGluZm9ybWF0aW9uIGZvciBmb3JtYWwgcHVycG9zZXMgbXVzdCBiZSANCg0Kb2J0YWluZWQgdGhyb3VnaCBDb3VuY2lsJ3MgZm9ybWFsIGRvY3VtZW50IHNlYXJjaCBwcm9jZWR1cmVzLCBub3QgdGhyb3VnaCB0aGUgU2VydmljZS4NCjxici8%2BDQo8YnIvPg0KVGhlIENvdW5jaWwgbWFrZXMgbm8gcmVwcmVzZW50YXRpb25zIGFuZCBnaXZlcyBubyB3YXJyYW50aWVzIChleHByZXNzIG9yIGltcGxpZWQpIGFib3V0IHRoZSANCg0KaW5mb3JtYXRpb24gKGluY2x1ZGluZyBhY2N1cmFjeSwgcmVsaWFiaWxpdHksIGNvbXBsZXRlbmVzcywgcXVhbGl0eSwgbWVyY2hhbnRhYmlsaXR5LCBmaXRuZXNzIG9yIA0KDQpzdWl0YWJpbGl0eSkgZm9yIGFueSBwdXJwb3NlIG5vciB0aGF0IGFjY2VzcyB0byBhbmQgdXNlIG9mIHRoaXMgd2Vic2l0ZSBvciBzeXN0ZW0gaXMgZnJlZSBmcm9tIA0KDQpjb21wdXRlciB2aXJ1c2VzIG9yIG90aGVyIGluZmVjdGlvbnMgb3IgY29udGFtaW5hdGlvbnMuIE5vIGxpYWJpbGl0eSBpcyBhY2NlcHRlZCBieSB0aGUgQ291bmNpbCANCg0KKGluY2x1ZGluZyB3aXRob3V0IGxpbWl0YXRpb24sIHdoZXRoZXIgaW4gYW4gYWN0aW9uIG9mIGNvbnRyYWN0LCBuZWdsaWdlbmNlIG9yIG90aGVyIHRvcnRpb3VzIGFjdGlvbikgZm9yIA0KDQphbnkgbG9zcywgZGFtYWdlIG9yIGNvc3RzIChpbmNsdWRpbmcgY29uc2VxdWVudGlhbCwgc3BlY2lhbCBvciBpbmRpcmVjdCBkYW1hZ2VzKSByZWxhdGluZyB0byBhY2Nlc3MgDQoNCnRvLCB1c2Ugb2YsIG9yIHJlbGlhbmNlIHVwb246DQo8YnIvPg0KPHVsPg0KPGxpPnRoZSBpbmZvcm1hdGlvbiBvYnRhaW5lZCB1c2luZyBEQVAgT25saW5lOyBvcjwvbGk%2BDQoNCjxsaT5EQVAgT25saW5lIGl0c2VsZi48L2xpPg0KPC91bD4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPkNoYW5nZXMgdG8gQWdyZWVtZW50IGFuZCBTZXJ2aWNlPC9zdHJvbmc%2BPHA%2BDQo8cD4NCkNvdW5jaWwgbWF5IHZhcnkgdGhlIFRlcm1zIG9mIFVzZSAoVGVybXMpIGF0IGFueSB0aW1lIGJ5IHBvc3RpbmcgdGhlIHZhcmllZCBUZXJtcyBvbiBpdHMgd2Vic2l0ZSANCg0KKCJ0aGUgU2l0ZSIpLiBUaGUgdmFyaWVkIFRlcm1zIHdpbGwgdGFrZSBlZmZlY3QgaW1tZWRpYXRlbHkgYWZ0ZXIgYW55IHZhcmlhdGlvbiBpcyBwb3N0ZWQgb24gdGhlIA0KDQpTaXRlLiBUaGUgdmVyc2lvbiBvZiB0aGUgVGVybXMgY3VycmVudGx5IG9uIHRoZSBTaXRlIGF0IGFueSB0aW1lIGdvdmVybnMgeW91ciB1c2Ugb2YgREFQIE9ubGluZS4gDQoNCklmIHlvdSBjb250aW51ZSB0byB1c2UgREFQIE9ubGluZSwgeW91ciBjb250aW51ZWQgdXNlIHdpbGwgY29uc3RpdHV0ZSBhY2NlcHRhbmNlIG9mIHRoZSBUZXJtcyANCg0KYW5kIGFueSB2YXJpYXRpb25zIHRvIGl0LiBDb3VuY2lsIHJlc2VydmVzIHRoZSByaWdodCB0byBjaGFuZ2UgYW55IGFzcGVjdCBvZiBEQVAgT25saW5lLCBpbmNsdWRpbmcgDQoNCm1vZGlmeWluZywgc3VzcGVuZGluZywgcmVwbGFjaW5nIG9yIHRlcm1pbmF0aW5nIERBUCBPbmxpbmUgYXMgd2VsbCBhcyBpbXBvc2luZyBhbnkgZmVlIGZvciBhY2Nlc3MgDQoNCnRvIERBUCBPbmxpbmUuIENvdW5jaWwgd2lsbCBoYXZlIG5vIGxpYWJpbGl0eSB0byB5b3UgaWYgREFQIE9ubGluZSBpcyBtb2RpZmllZCwgc3VzcGVuZGVkLCByZXBsYWNlZCANCg0Kb3IgdGVybWluYXRlZC4gWW91IGFncmVlIHRvIHdhaXZlIGFsbCByaWdodHMgeW91IG1heSBoYXZlIGFnYWluc3QgQ291bmNpbCBpbiByZXNwZWN0IG9mIGFueSBzdWNoIA0KDQphY3Rpb24gdGFrZW4gYnkgQ291bmNpbC4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPkNvcHlyaWdodDwvc3Ryb25nPjwvcD4NCjxwPg0KSUNPTiBzb2Z0d2FyZSAocmVmZXJyZWQgdG8gaW4gdGhlc2UgdGVybXMgYW5kIGNvbmRpdGlvbnMgYXMgRGV2ZWxvcG1lbnQgQXBwbGljYXRpb24gYW5kIFByb3BlcnR5IA0KDQpPbmxpbmUpIGlzIHByb3ZpZGVkIHdpdGggYSBub24tZXhjbHVzaXZlIGxpY2VuY2UgdG8gU2NlbmljIFJpbSBSZWdpb25hbCBDb3VuY2lsLiBDb21waWxhdGlvbiANCg0Kb2YgdGhlIERldmVsb3BtZW50IEFwcGxpY2F0aW9uIGFuZCBQcm9wZXJ0eSBPbmxpbmUgY29udGVudCAoZXhjbHVkaW5nIGNvbnRlbnQgb2YgdGhpcmQgcGFydHkgDQoNCmRvY3VtZW50YXRpb24gYW5kIGluZm9ybWF0aW9uKSDvv70gQ29weXJpZ2h0IFNjZW5pYyBSaW0gUmVnaW9uYWwgQ291bmNpbC4NCjwvcD4NCjxici8%2BDQo8cD5FeGNlcHQgZm9yIHRoZSBwdXJwb3NlIGV4cHJlc3NseSBzdGF0ZWQgYmVsb3cgYW5kIGZvciBwdXJwb3NlcyBwZXJtaXR0ZWQgYnkgdGhlIENvcHlyaWdodCANCg0KQWN0IDE5NjggKEN0aCksIHJlcHJvZHVjdGlvbiwgcHVibGljYXRpb24sIGNvbW11bmljYXRpb24gdG8gdGhlIHB1YmxpYywgYWRhcHRhdGlvbiwgc2VsbGluZywgcmUtDQp0cmFuc21pc3Npb24sIHJlZnJhbWluZywgbGlua2luZywgY29tbWVyY2lhbCBvciBvdGhlciB1c2UgKHdoZXRoZXIgZm9yIGNvbXBlbnNhdGlvbiBvZiBhbnkga2luZCBvciANCg0Kbm90KSBvZiBkb2N1bWVudHMsIGNvbnRlbnQgb3IgaW5mb3JtYXRpb24gbWFkZSBhdmFpbGFibGUgdXNpbmcgREFQIE9ubGluZSBieSB3aGF0ZXZlciBtZWFucyBpcyANCg0KcHJvaGliaXRlZCB1bmxlc3MgdGhlIHdyaXR0ZW4gY29uc2VudCBvZiB0aGUgQ29weXJpZ2h0IG93bmVyIGlzIG9idGFpbmVkLg0KPC9wPg0KPGJyLz4NCjxwPkRBUCBPbmxpbmUgdXNlcnMgYXJlIGV4cHJlc3NseSBwZXJtaXR0ZWQgdG8gcmVwcm9kdWNlIHRoZSBjb250ZW50cyBvZiBEQVAgT25saW5lIHdlYnNpdGUgaW4gdGhlaXIgDQoNCndlYiBicm93c2VyIChhbmQgaW4gYW55IGNhY2hlIGZpbGUgcHJvZHVjZWQgYnkgdGhlaXIgd2ViIGJyb3dzZXIpIGZvciB0aGUgc29sZSBwdXJwb3NlIG9mIHRoZWlyIA0KDQpwZXJzb25hbCBub24tY29tbWVyY2lhbCB2aWV3aW5nIG9mIHRoZSBjb250ZW50IGFuZCBwcmludGluZyBvZiBQREYgZG9jdW1lbnRhdGlvbi4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPlJpZ2h0IHRvIGdyYW50IG9yIHJlZnVzZSBhY2Nlc3M8L3N0cm9uZz48L3A%2BDQo8cD4NCkFjY2VzcyB0byBEQVAgT25saW5lIGlzIGF0IHRoZSBkaXNjcmV0aW9uIG9mIHRoZSBDb3VuY2lsLiBUaGUgQ291bmNpbCByZXNlcnZlcyB0aGUgcmlnaHQgdG8gcmVmdXNlIA0KDQp0byBhbGxvdyBhY2Nlc3MgdG8gYW55IHBhcnQgb2YgRGFwIE9ubGluZSB3aXRob3V0IHByaW9yIG5vdGljZSwgYW5kIHdpdGhvdXQgdGhlIG5lZWQgdG8gZ2l2ZSBhbnkgDQoNCnJlYXNvbiBmb3IgZG9pbmcgc28uDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5Hb3Zlcm5pbmcgbGF3PC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZSBvZiBRdWVlbnNsYW5kLCBBdXN0cmFsaWEgDQoNCmFuZCB1c2VycyBzdWJtaXQgdG8gdGhlIG5vbi1leGNsdXNpdmUganVyaXNkaWN0aW9uIG9mIHRoZSBDb3VydHMgb2YgdGhhdCBTdGF0ZSBhbmQgY291cnRzIG9mIGFwcGVhbCANCg0KZnJvbSB0aGVtLg0KPC9wPg0KPGJyLz4NCjxwPjxzdHJvbmc%2BU3lzdGVtIFJlcXVpcmVtZW50czwvc3Ryb25nPjwvcD4NCjxwPg0KREFQIE9ubGluZSBoYXMgYmVlbiB0ZXN0ZWQgYW5kIGNlcnRpZmllZCB0byBmdW5jdGlvbiBjb3JyZWN0bHkgaW4gYWxsIG1vZGVybiBicm93c2Vycy4gU29tZSANCg0KZnVuY3Rpb25hbGl0eSwgZS5nLiBtYXBwaW5nLCB2aWV3aW5nIG9mIGRvY3VtZW50cywgbWF5IHJlcXVpcmUgYWRkaXRpb25hbCBzb2Z0d2FyZSB0byBiZSBpbnN0YWxsZWQuIA0KDQpDb3VuY2lsIGlzIG5vdCBpbiBhIHBvc2l0aW9uIHRvIHByb3ZpZGUgaGVscCBkZXNrIHN1cHBvcnQuDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5Db21tZW5jZW1lbnQgb2YgVXNlPC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpBbGwgaW5mb3JtYXRpb24gcHJvdmlkZWQgaXMgY3VycmVudCBmb3IgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIGxvZGdlZCBhZnRlciAxIEp1bHkgMjAwOS4NCg0KSSBoYXZlIHJlYWQgYW5kIHVuZGVyc3Rvb2QgdGhlIHByb3Zpc2lvbnMgc2V0IG91dCBhYm92ZS4NCjwvcD4NCjwvZGl2Pg0KPGJyLz4NCg0KDQoNCmQCCQ8WAh8AZWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFGmN0bDAwJGN0TWFpbiRjaGtBZ3JlZSRjaGsxdhjPrxFZxZXfDRmLmXzx0%2BwaTcs%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAAQhAUIq3x8ENRTIXfnBkSI9OcBhpQsJgyMjpoz897IvWkTdyBz%2Fe%2FCcgfJ5zxj4jwg%2FVxUvaVtQChmSC3DOB0MpbhL5nzDI5n4Yh25oiYgR3L9R1Qk%3D&ctl00%24ctMain%24chkAgree%24chk1=on&ctl00%24ctMain%24BtnAgree=I+Agree
+    headers:
+      Accept-Encoding:
+      - identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Referer:
+      - https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Content-Length:
+      - '7246'
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 07 Jun 2019 02:27:58 GMT
+      Location:
+      - "/Pages/XC.Home/Home.aspx"
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '141'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Pages/XC.Home/Home.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Home/Home.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Referer:
+      - https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Fri, 07 Jun 2019 02:27:58 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '11045'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
+        >\r\n<head id=\"ctl00_Head1\"><title>\r\n\tIcon Software Administration\r\n</title><meta
+        http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
+        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
+        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
+        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
+        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n\t<base target=\"_top\"
+        />\r\n\t\r\n\t<!-- Conditional Queries to load the Formatted Lists CSS files
+        -->  \r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n\t
+        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
+        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\t\r\n\t\r\n    <style type=\"text/css\">\r\n
+        \       .bodycopy {\r\n            margin: 0px 0px 5px 0px;\r\n            padding:
+        0px 0px 5px 0px;\r\n        }\r\n\r\n        .bodycopy li {\r\n            list-style-type:
+        disc;  \r\n        }\r\n\r\n        a:hover {\r\n            color: black;\r\n
+        \           width: auto;\r\n            text-decoration: underline;\r\n            font-weight:
+        bold;\r\n        }\r\n\r\n        a, a:link, a:visited, a:active {\r\n            color:
+        black;\r\n            text-align: left;\r\n            text-decoration: none;\r\n
+        \           font-weight: bold;\r\n            width: auto;\r\n            background-color:
+        transparent;\r\n            border: 0;\r\n            font-size: 12px;\r\n
+        \       }\r\n    </style>\r\n<link href=\"../../App_Themes/Default/Default.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/QPPstyle.css\"
+        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
+        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n    <form method=\"post\"
+        action=\"./Home.aspx\" id=\"aspnetForm\" role=\"form\">\r\n<input type=\"hidden\"
+        name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\" value=\"\" />\r\n<input type=\"hidden\"
+        name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\" value=\"\" />\r\n<input
+        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUKMTc4MDQ4OTc2NQ9kFgJmD2QWAgIDD2QWBAIHDxYCHgRUZXh0BTM8YSBocmVmPSIuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Ij5Mb2dpbjwvYT5kAgsPFgIfAGVkZOuomceiV6HM8UwS4IRvy63+aNde\"
+        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ad469afcf-7bb2-42b0-a0c2-3f036d3832f2%3aea597d4b\"
+        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
+        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
+        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
+        id=\"__VIEWSTATEGENERATOR\" value=\"2353AB4D\" />\r\n        \r\n        <script
+        type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
+        \       <div id=\"ctl00_throbber_throbber\" class=\"globalThrobber\">\r\n
+        \   <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=spinner-large.gif\"
+        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
+        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
+        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
+        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
+        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
+        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n\r\n<script
+        type=\"text/javascript\">\r\n    /*This script is designed to alert the user
+        when session timout is reached and redirect to home page*/\r\n    var timer1;\r\n
+        \   window.clearTimeout(timer1);\r\n    var $dialog;\r\n    $(document).ready(function()\r\n
+        \   {\r\n        $dialog = $('<div></div>').html('Your session has expired,
+        you will now be redirected to the home page.').dialog(\r\n        {\r\n            buttons:\r\n
+        \           {   \r\n                'Ok': function()\r\n                {\r\n
+        \                   $(this).dialog('close');\r\n                    window.location
+        = 'http://srr-prod-icon.saas.t1cloud.com/Pages/XC.Home/Home.aspx';\r\n                }\r\n
+        \           },\r\n            show: \"fade\",\r\n            hide: \"fade\",\r\n
+        \           resizable: false,\r\n            modal: true,\r\n            autoOpen:
+        false,\r\n            title:  'Session Expired'\r\n        });\r\n    });\r\n
+        \   var sessionTimeout = '1199000';\r\n    function doTimeout()\r\n    {\r\n
+        \       $dialog.dialog('open');\r\n        return false;\r\n    }\r\n    timer1
+        = window.setTimeout('doTimeout()',sessionTimeout);\r\n</script>\r\n        <div
+        class=\"src_container\">\r\n            <div id=\"docf\">\r\n                <div
+        id=\"hd\" role=\"banner\">\r\n                \r\n                <!--<div
+        id=\"navwrap\" role=\"navigation\">  \r\n                        <div id=\"nav\"
+        class=\"floatLeft adminnav menushell\">\r\n                            <a
+        class=\"megaMenuLink\" _megamenupos=\"0pos\" href=\"../../Pages/XC.Home/Home.aspx\">Home</a>\r\n
+        \                           <a class=\"megaMenuLink\" _megamenupos=\"1pos\"
+        href=\"../../Pages/Home/About.aspx\">About us</a>\r\n                            <a
+        class=\"megaMenuLink\" _megamenupos=\"2pos\" href=\"../../Pages/XC.Home/Home.aspx\">News</a>\r\n
+        \                           <a class=\"megaMenuLink\" _megamenupos=\"4pos\"
+        href=\"http://www.iconsoftware.com.au\">Contact ICON</a>\r\n                        </div>\r\n
+        \                   </div>\r\n                -->\r\n                 \r\n
+        \                   <!-- Hide Login -->\r\n                    <div id=\"nav\"
+        class=\"floatRight adminnav\" style=\"display:none;\">  \r\n                        <a
+        href=\"../../Pages/Security/Login.aspx\">Login</a>\r\n                    </div>
+        \ \r\n                              \r\n                    <div class=\"logo\">\r\n
+        \                       <a href=\"/\" style=\"float:left;\">\r\n                            <img
+        src=\"/Images/Scenic-Logo.jpg\" alt=\"Scenic Rim Logo\" width=\"250\" height=\"96\">\r\n
+        \                       </a>\r\n                        <span style=\"font-size:3em;color:#005244;line-height:96px;float:left;margin-left:50px;\">DAP
+        Online</span>\r\n                        <div style=\"clear:both;\"></div>\r\n
+        \                   </div>\r\n                    \r\n                    <div
+        id=\"navigation\">\r\n                        <ul class=\"nav\">\r\n                            <li><a
+        href=\"../XC.Home/Home.aspx\">Home</a></li>\r\n                            <li><a
+        href=\"../XC.Track/SearchProperty.aspx\">Property</a></li>\r\n                            <li><a
+        href=\"../XC.Track/SearchApplication.aspx\">Applications</a></li>\r\n                        </ul>\r\n
+        \                   </div>\r\n                    <!-- START NOT USED -->\r\n
+        \                   <!-- HIDE green container --> \r\n                    <div
+        class=\"clear adminclear\"></div> \r\n                    <div id=\"mainline\"
+        style=\"display:none;\">\r\n                        <div class=\"containerLeft
+        adminbanner splitterLeftMaster noOverflow\">\r\n                            \r\n
+        \                           <div style=\"margin-top:5px; padding:3px; padding-left:12px;display:none;\"
+        id=\"adminpage\">\r\n                                \r\n                            </div>\r\n
+        \                       </div>\r\n                        <div class=\"containerRight
+        adminbanner splitterRightMaster noOverflow\">\r\n                            \r\n
+        \                       </div>\r\n                    </div>\r\n                    <!--
+        END NOT USED-->\r\n\r\n                    <div class=\"clear\"></div>\r\n
+        \               </div>\r\n                <div class=\"clear\"></div> \r\n
+        \               <div id=\"bd\" role=\"main\">\r\n                    <div
+        id=\"main\">\r\n                        <div class=\"containerFull\">\r\n
+        \                           <div class=\"containerInner\">\r\n                                <div
+        class=\"padded\">\r\n                                    \r\n                                    \r\n
+        \   <div id=\"ctl00_ctMain_main\" style=\"\">\r\n        <h2>DAP Online Home</h2>\r\n
+        \       <br />\r\n        <p class=\"bodycopy\">\r\n        Welcome to Scenic
+        Rim Regional Council's online Development Application and Property Enquiry
+        Service.\r\n        </p>\r\n        <p class=\"bodycopy\">\r\n        Development
+        Application and Property Enquiry is a service to provide residents, applicants
+        and contractors, development industry, visitors and the business sector with
+        up to date information \r\n        on the progress of properly-made development
+        applications where Council is the Assessment \r\n        Manager within the
+        Scenic Rim Region. The information provided online is made available for \r\n
+        \       general information only and is provided in good faith.\r\n        </p>\r\n
+        \       <p class=\"bodycopy\">\r\n            After a development application
+        is properly made with Council, the online tracking service can provide information
+        on the progress of the application through to the decision stage. Details
+        of \r\n            the current status, the various stage of the assessment
+        process and viewing of publicly available \r\n            documentation are
+        all available for most applications (excluding building works and plumbing
+        \r\n            applications).\r\n        </p>\r\n        <p class=\"bodycopy\">\r\n
+        \           Please select an option from the menu below:\r\n        </p>\r\n
+        \       <ul>\r\n          <li class=\"bodycopy\"><a href=\"../XC.Track/SearchProperty.aspx\"><!--
+        img src=\"../../common/baseimages/arrow-right.gif\"/ -->Property Enquiry</a>\r\n
+        \           For details on a given property or to perform a land use enquiry</li>\r\n
+        \         <li class=\"bodycopy\"><a href=\"../XC.Track/SearchApplication.aspx\"><!--
+        img src=\"../../common/baseimages/arrow-right.gif\"/ -->Application Enquiry</a>\r\n
+        \           For application details for a given application number or property</li>\r\n
+        \       </ul>\r\n        <br/>\r\n    </div>\r\n    <br/>\r\n    <div class=\"struct\"></div>\r\n\r\n
+        \                                   \r\n    \r\n    \r\n\r\n                                </div>\r\n
+        \                           </div>\r\n                        </div>\r\n                    </div>\r\n
+        \               </div>\r\n                <div class=\"footer\">\r\n                    <br
+        />\r\n                    <br />\r\n                    <p>\r\n                        <a
+        href=\"http://www.scenicrim.qld.gov.au\">Home</a>\r\n                    </p>\r\n
+        \               </div>\r\n            </div>\r\n            \r\n        </div>\r\n
+        \       \r\n        <script type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
+        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>
+        \r\n        <script type=\"text/javascript\">\r\n            $(document).ready(function
+        () {\r\n                document.title = document.title + ' - ICON Software';\r\n
+        \           });\r\n        </script>\r\n    </form>\r\n</body>\r\n</html>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?d=last28days&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/xml; charset=utf-8
+      Date:
+      - Fri, 07 Jun 2019 02:28:01 GMT
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '58356'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>327922</ApplicationId>\r\n
+        \   <ApplicationType>Material Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Dual
+        Occupancy (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/049</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>49</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-10T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Dual Occupancy (Residential Use)</ApplicationDetails>\r\n
+        \   <OfficerId>NARENDRA.S</OfficerId>\r\n    <Officer>Narendra Singh</Officer>\r\n
+        \   <DADays>28</DADays>\r\n    <ApplicationIdS>327922</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>327922</ApplicationId>\r\n      <DeterminationType>Application
+        Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>327922</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>25877</PropertyId>\r\n      <ApplicationId>327922</ApplicationId>\r\n
+        \     <AssessmentId>740520120.00000</AssessmentId>\r\n      <ParcelId>27146</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>633</StreetNumber1>\r\n
+        \     <StreetName>Knapp Creek Road</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>KNAPP CREEK</LocalityName>\r\n      <Postcode>4285</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>633 Knapp Creek Road</Line1>\r\n      <Line2>KNAPP CREEK QLD
+        4285</Line2>\r\n      <FullLegalDescription>Lot 22 SP 115823</FullLegalDescription>\r\n
+        \     <Area>336100.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327922</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>327922</ApplicationId>\r\n
+        \     <PartyId>459999</PartyId>\r\n      <PersonId>459999</PersonId>\r\n      <PropertyId>327922</PropertyId>\r\n
+        \     <FamilyName>Bell</FamilyName>\r\n      <GivenName>Sandra Lynelle</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>Mrs</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Mrs Sandra Lynelle Bell</FullName>\r\n      <EmailAddress>linsands60@gmail.com</EmailAddress>\r\n
+        \     <MobileNumber>0428 525 082</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>327922</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327900</ApplicationId>\r\n
+        \   <ApplicationType>Operational Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Roadworks</SubNatureOfApplication>\r\n
+        \   <ReferenceNumber>OPW19/011</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>11</ReferenceNumberNumber>\r\n    <StatusText>Information
+        Request Part 3</StatusText>\r\n    <Status>InfReqPt3</Status>\r\n    <Current>C</Current>\r\n
+        \   <LodgementDate>2019-05-10T00:00:00+00:00</LodgementDate>\r\n    <ApplicationDetails>Roadworks
+        and Clearing Vegetation</ApplicationDetails>\r\n    <DADays>28</DADays>\r\n
+        \   <ApplicationIdS>327900</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>327900</ApplicationId>\r\n
+        \     <DeterminationType>Information Request Part 3</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
+        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>40972</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 183 CC 952</FullLegalDescription>\r\n      <Area>658630.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
+        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>41130</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 174 SP 105800</FullLegalDescription>\r\n      <Area>2154000.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
+        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>41131</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 1 PER 6550</FullLegalDescription>\r\n      <Area>25.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>327900</ApplicationId>\r\n
+        \     <PartyId>420715</PartyId>\r\n      <PersonId>420715</PersonId>\r\n      <PropertyId>327900</PropertyId>\r\n
+        \     <FamilyName>Site &amp; Civil Consulting</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Site &amp; Civil Consulting</FullName>\r\n      <EmailAddress
+        />\r\n      <TelephoneNumber>1300 654 816</TelephoneNumber>\r\n      <MobileNumber
+        />\r\n      <Private>N</Private>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>327971</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>House
+        (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/050</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>50</ReferenceNumberNumber>\r\n
+        \   <StatusText>Information Request Part 3</StatusText>\r\n    <Status>InfReqPt3</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-13T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>House (Residential Use)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>25</DADays>\r\n    <ApplicationIdS>327971</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>327971</ApplicationId>\r\n      <DeterminationType>Information
+        Request Part 3</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>327971</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>18709</PropertyId>\r\n      <ApplicationId>327971</ApplicationId>\r\n
+        \     <ParcelId>11272</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName
+        />\r\n      <StreetNumber1>14</StreetNumber1>\r\n      <StreetNumber2>22</StreetNumber2>\r\n
+        \     <StreetName>Devon Drive</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n
+        \     <Postcode>4270</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>14  - 22 Devon
+        Drive</Line1>\r\n      <Line2>TAMBORINE QLD 4270</Line2>\r\n      <FullLegalDescription>Lot
+        4 RP 200606</FullLegalDescription>\r\n      <Area>20020.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327971</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>327971</ApplicationId>\r\n
+        \     <PartyId>469191</PartyId>\r\n      <PersonId>469191</PersonId>\r\n      <PropertyId>327971</PropertyId>\r\n
+        \     <FamilyName>Karon Aust Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Karon Aust Pty Ltd</FullName>\r\n      <EmailAddress>karonaust@bigpond.com</EmailAddress>\r\n
+        \     <TelephoneNumber />\r\n      <MobileNumber>0411 518 456</MobileNumber>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>327971</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328033</ApplicationId>\r\n    <ApplicationType>Reconfiguring
+        A Lot</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Boundary
+        Realignment</SubNatureOfApplication>\r\n    <ReferenceNumber>RAL19/017</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>17</ReferenceNumberNumber>\r\n
+        \   <StatusText>Decision Part 5 Development Permit</StatusText>\r\n    <Status>DecPt5DP</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-14T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Development Permit for Reconfiguring a Lot Boundary
+        Realignment (3 into 3)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>24</DADays>\r\n    <ApplicationIdS>328033</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328033</ApplicationId>\r\n      <DeterminationType>Decision
+        Part 5 Development Permit</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>328033</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>5504</PropertyId>\r\n
+        \     <ApplicationId>328033</ApplicationId>\r\n      <ParcelId>28609</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName>Cedar Glen</SiteName>\r\n      <StreetNumber1>3338</StreetNumber1>\r\n
+        \     <StreetName>Kerry Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>DARLINGTON</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>3338 Kerry Road</Line1>\r\n
+        \     <Line2>DARLINGTON QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        2 WD 2942</FullLegalDescription>\r\n      <Area>1193740.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328033</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328033</ApplicationId>\r\n
+        \     <PartyId>320696</PartyId>\r\n      <PersonId>320696</PersonId>\r\n      <PropertyId>328033</PropertyId>\r\n
+        \     <FamilyName>Cedar Glen Farmstay</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Cedar Glen Farmstay</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328033</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>328139</ApplicationId>\r\n
+        \   <ApplicationType>Operational Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Signage</SubNatureOfApplication>\r\n
+        \   <ReferenceNumber>OPW19/012</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>12</ReferenceNumberNumber>\r\n    <StatusText>Decision
+        Part 5 Development Permit</StatusText>\r\n    <Status>DecPt5DP</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-15T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Signage</ApplicationDetails>\r\n    <OfficerId>NARENDRA.S</OfficerId>\r\n
+        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>23</DADays>\r\n    <ApplicationIdS>328139</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328139</ApplicationId>\r\n      <DeterminationType>Decision
+        Part 5 Development Permit</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>328139</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>929693</PropertyId>\r\n
+        \     <ApplicationId>328139</ApplicationId>\r\n      <ParcelId>59441</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName>Billabong Park</SiteName>\r\n
+        \     <StreetName>Salisbury Avenue</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>KOORALBYN</LocalityName>\r\n      <Postcode>4285</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Salisbury Avenue</Line1>\r\n      <Line2>KOORALBYN QLD 4285</Line2>\r\n
+        \     <FullLegalDescription>Lot 900 SP 296603</FullLegalDescription>\r\n      <Area>8723.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328139</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328139</ApplicationId>\r\n
+        \     <PartyId>362227</PartyId>\r\n      <PersonId>362227</PersonId>\r\n      <PropertyId>328139</PropertyId>\r\n
+        \     <FamilyName>Kooralbyn Valley Chamber Of Commerce Incorporated</FamilyName>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FullName>Kooralbyn Valley
+        Chamber Of Commerce Incorporated</FullName>\r\n      <EmailAddress>gks82@hotmail.com</EmailAddress>\r\n
+        \     <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328139</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>328074</ApplicationId>\r\n
+        \   <ApplicationType>Approving Plans of Subdivision</ApplicationType>\r\n
+        \   <NatureOfApplicationType>PlanSub</NatureOfApplicationType>\r\n    <NatureOfApplication>Plans
+        of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Standard
+        Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/013</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>13</ReferenceNumberNumber>\r\n
+        \   <StatusText>Assessment</StatusText>\r\n    <Status>Assessment</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-15T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Standard Format Plan</ApplicationDetails>\r\n    <OfficerId>THOR.N</OfficerId>\r\n
+        \   <Officer>Thor Nelson</Officer>\r\n    <DADays>23</DADays>\r\n    <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328074</ApplicationId>\r\n      <DeterminationType>Assessment</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>14521</PropertyId>\r\n
+        \     <ApplicationId>328074</ApplicationId>\r\n      <ParcelId>8137</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>433</StreetNumber1>\r\n      <StreetNumber2>439</StreetNumber2>\r\n
+        \     <StreetName>Long Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMBORINE
+        MOUNTAIN</LocalityName>\r\n      <Postcode>4272</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>433  - 439 Long
+        Road</Line1>\r\n      <Line2>TAMBORINE MOUNTAIN QLD 4272</Line2>\r\n      <FullLegalDescription>L6
+        RP 168882 L1 RP 47836</FullLegalDescription>\r\n      <Area>33160.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>14521</PropertyId>\r\n
+        \     <ApplicationId>328074</ApplicationId>\r\n      <ParcelId>29580</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>433</StreetNumber1>\r\n      <StreetNumber2>439</StreetNumber2>\r\n
+        \     <StreetName>Long Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMBORINE
+        MOUNTAIN</LocalityName>\r\n      <Postcode>4272</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>433  - 439 Long
+        Road</Line1>\r\n      <Line2>TAMBORINE MOUNTAIN QLD 4272</Line2>\r\n      <FullLegalDescription>L6
+        RP 168882 L1 RP 47836</FullLegalDescription>\r\n      <Area>2415.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328074</ApplicationId>\r\n
+        \     <PartyId>303750</PartyId>\r\n      <PersonId>303750</PersonId>\r\n      <PropertyId>328074</PropertyId>\r\n
+        \     <FamilyName>Andrews &amp; Hansen Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Andrews &amp; Hansen Pty Ltd</FullName>\r\n      <EmailAddress
+        />\r\n      <TelephoneNumber>07 5596 2150</TelephoneNumber>\r\n      <MobileNumber
+        />\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328192</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Impact</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Impact</NatureOfApplication>\r\n    <SubNatureOfApplication>Tourist
+        Cabins (Tourist Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/051</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>51</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-16T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Tourist Cabins (Tourist Use)</ApplicationDetails>\r\n
+        \   <OfficerId>JUDY.SA</OfficerId>\r\n    <Officer>Judy Sandmann</Officer>\r\n
+        \   <DADays>22</DADays>\r\n    <ApplicationIdS>328192</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328192</ApplicationId>\r\n      <DeterminationType>Application
+        Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328192</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>12909</PropertyId>\r\n      <ApplicationId>328192</ApplicationId>\r\n
+        \     <ParcelId>7658</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>1</StreetNumber1>\r\n
+        \     <StreetNumber2>15</StreetNumber2>\r\n      <StreetName>Slingsby Road</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>TAMBORINE MOUNTAIN</LocalityName>\r\n
+        \     <Postcode>4272</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>1  - 15 Slingsby
+        Road</Line1>\r\n      <Line2>TAMBORINE MOUNTAIN QLD 4272</Line2>\r\n      <FullLegalDescription>Lot
+        1 RP 161361</FullLegalDescription>\r\n      <Area>20500.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328192</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328192</ApplicationId>\r\n
+        \     <PartyId>446995</PartyId>\r\n      <PersonId>446995</PersonId>\r\n      <PropertyId>328192</PropertyId>\r\n
+        \     <FamilyName>Steffan Town Planning</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Steffan Town Planning</FullName>\r\n      <TelephoneNumber>07
+        3162 6856</TelephoneNumber>\r\n      <MobileNumber>0422 369 937</MobileNumber>\r\n
+        \     <Private>N</Private>\r\n      <ApplicationIdS>328192</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328346</ApplicationId>\r\n    <ApplicationType>Operational
+        Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Electrical
+        Reticulation</SubNatureOfApplication>\r\n    <ReferenceNumber>OPW19/013</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>13</ReferenceNumberNumber>\r\n
+        \   <StatusText>Decision Part 5</StatusText>\r\n    <Status>DecPt5</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-20T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>18</DADays>\r\n
+        \   <ApplicationIdS>328346</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328346</ApplicationId>\r\n
+        \     <DeterminationType>Decision Part 5</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>23852</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 1 RP 883236</FullLegalDescription>\r\n
+        \     <Area>392900.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>26566</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 7 SP 101452</FullLegalDescription>\r\n
+        \     <Area>1605631.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>328346</ApplicationIdS>\r\n    </Address>\r\n    <Address>\r\n
+        \     <PropertyId>25462</PropertyId>\r\n      <ApplicationId>328346</ApplicationId>\r\n
+        \     <ParcelId>45128</ParcelId>\r\n      <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 7 SP 227072</FullLegalDescription>\r\n
+        \     <Area>231400.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>45129</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 9 SP 227072</FullLegalDescription>\r\n
+        \     <Area>982501.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>58644</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 901 SP 230707</FullLegalDescription>\r\n
+        \     <Area>795300.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>59088</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 9 SP 285190</FullLegalDescription>\r\n
+        \     <Area>74520.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
+        \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>59089</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
+        \     <StreetName>Beaudesert-Beenleigh Road</StreetName>\r\n      <StreetType
+        />\r\n      <LocalityName>TAMBORINE</LocalityName>\r\n      <Postcode>4270</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>2426 Beaudesert-Beenleigh Road</Line1>\r\n      <Line2>TAMBORINE
+        QLD 4270</Line2>\r\n      <FullLegalDescription>Lot 901 SP 285190</FullLegalDescription>\r\n
+        \     <Area>720800.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328346</ApplicationId>\r\n
+        \     <PartyId>355537</PartyId>\r\n      <PersonId>355537</PersonId>\r\n      <PropertyId>328346</PropertyId>\r\n
+        \     <FamilyName>J &amp; P Richardson Industries Pty Ltd</FamilyName>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FullName>J &amp; P Richardson
+        Industries Pty Ltd</FullName>\r\n      <EmailAddress>jpr@jpr.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 3271 2911</TelephoneNumber>\r\n      <MobileNumber
+        />\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328393</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>House
+        (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/052</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>52</ReferenceNumberNumber>\r\n
+        \   <StatusText>Withdrawn</StatusText>\r\n    <Status>Withdrawn</Status>\r\n
+        \   <Current>P</Current>\r\n    <LodgementDate>2019-05-21T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Shed (Residential Use)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>17</DADays>\r\n    <ApplicationIdS>328393</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328393</ApplicationId>\r\n      <DeterminationType>Withdrawn</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328393</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>6633</PropertyId>\r\n
+        \     <ApplicationId>328393</ApplicationId>\r\n      <ParcelId>19313</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>163</StreetNumber1>\r\n
+        \     <StreetNumber2>169</StreetNumber2>\r\n      <StreetName>Wongawallan
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMBORINE
+        MOUNTAIN</LocalityName>\r\n      <Postcode>4272</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>163  - 169 Wongawallan
+        Road</Line1>\r\n      <Line2>TAMBORINE MOUNTAIN QLD 4272</Line2>\r\n      <FullLegalDescription>Lot
+        5 RP 814773</FullLegalDescription>\r\n      <Area>8024.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>328393</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>328393</ApplicationId>\r\n      <PartyId>448005</PartyId>\r\n
+        \     <PersonId>448005</PersonId>\r\n      <PropertyId>328393</PropertyId>\r\n
+        \     <FamilyName>All Approvals Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>All Approvals Pty Ltd</FullName>\r\n      <EmailAddress>phil@allapprovals.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0459 991 891</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328393</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>328449</ApplicationId>\r\n
+        \   <ApplicationType>Material Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Food
+        Premises (Business Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/053</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>53</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-22T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Food Premises (Business Use)</ApplicationDetails>\r\n
+        \   <OfficerId>THOR.N</OfficerId>\r\n    <Officer>Thor Nelson</Officer>\r\n
+        \   <DADays>16</DADays>\r\n    <ApplicationIdS>328449</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328449</ApplicationId>\r\n      <DeterminationType>Application
+        Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328449</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>3437</PropertyId>\r\n      <ApplicationId>328449</ApplicationId>\r\n
+        \     <AssessmentId>284500000.00000</AssessmentId>\r\n      <ParcelId>19898</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>32</StreetNumber1>\r\n
+        \     <StreetName>Christie Street</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>CANUNGRA</LocalityName>\r\n      <Postcode>4275</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>32 Christie Street</Line1>\r\n      <Line2>CANUNGRA QLD 4275</Line2>\r\n
+        \     <FullLegalDescription>Lot 8 RP 83470</FullLegalDescription>\r\n      <Area>941.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328449</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328449</ApplicationId>\r\n
+        \     <PartyId>470146</PartyId>\r\n      <PersonId>470146</PersonId>\r\n      <PropertyId>328449</PropertyId>\r\n
+        \     <FamilyName>Kraayvanger LRBA Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Kraayvanger LRBA Pty Ltd</FullName>\r\n      <MobileNumber>0481
+        232 244</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328449</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328532</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>ChangeMin</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Minor Change to Approval</NatureOfApplication>\r\n
+        \   <ReferenceNumber>MCU19/054</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>54</ReferenceNumberNumber>\r\n    <StatusText>Application
+        Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n    <Current>C</Current>\r\n
+        \   <LodgementDate>2019-05-23T00:00:00+00:00</LodgementDate>\r\n    <ApplicationDetails>Minor
+        Change to Approval</ApplicationDetails>\r\n    <OfficerId>JUDY.SA</OfficerId>\r\n
+        \   <Officer>Judy Sandmann</Officer>\r\n    <DADays>15</DADays>\r\n    <ApplicationIdS>328532</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328532</ApplicationId>\r\n      <DeterminationType>Application
+        Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328532</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>3375</PropertyId>\r\n      <ApplicationId>328532</ApplicationId>\r\n
+        \     <ParcelId>3819</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName
+        />\r\n      <StreetNumber1>1</StreetNumber1>\r\n      <StreetName>Pine Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>CANUNGRA</LocalityName>\r\n      <Postcode>4275</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>1 Pine Street</Line1>\r\n      <Line2>CANUNGRA QLD 4275</Line2>\r\n
+        \     <FullLegalDescription>Lot 2 RP 136419</FullLegalDescription>\r\n      <Area>981.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328532</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328532</ApplicationId>\r\n
+        \     <PartyId>278314</PartyId>\r\n      <PersonId>278314</PersonId>\r\n      <PropertyId>328532</PropertyId>\r\n
+        \     <FamilyName>Comley</FamilyName>\r\n      <GivenName>Jean</GivenName>\r\n
+        \     <Gender>F</Gender>\r\n      <Title>Ms</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Ms Jean Comley</FullName>\r\n      <EmailAddress>landmark4275@gmail.com</EmailAddress>\r\n
+        \     <TelephoneNumber>07 5543 5155</TelephoneNumber>\r\n      <MobileNumber>0419
+        767 090</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328532</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328477</ApplicationId>\r\n    <ApplicationType>Approving
+        Plans of Subdivision</ApplicationType>\r\n    <NatureOfApplicationType>PlanSub</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Plans of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Building
+        Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/014</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>14</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-23T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>15</DADays>\r\n
+        \   <ApplicationIdS>328477</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328477</ApplicationId>\r\n
+        \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>328477</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>929763</PropertyId>\r\n
+        \     <ApplicationId>328477</ApplicationId>\r\n      <ParcelId>59521</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>15</StreetNumber1>\r\n      <StreetName>Hawthorn
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>15 Hawthorn Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        35 SP 299702</FullLegalDescription>\r\n      <Area>708.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>328477</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>328477</ApplicationId>\r\n      <PartyId>354638</PartyId>\r\n
+        \     <PersonId>354638</PersonId>\r\n      <PropertyId>328477</PropertyId>\r\n
+        \     <FamilyName>Impact Homes</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Impact Homes</FullName>\r\n      <EmailAddress>certification@impacthomes.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 3489 6000</TelephoneNumber>\r\n      <MobileNumber>07
+        3489 6000</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328477</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328563</ApplicationId>\r\n    <ApplicationType>Operational
+        Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Electrical
+        Reticulation</SubNatureOfApplication>\r\n    <ReferenceNumber>OPW19/014</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>14</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-24T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>14</DADays>\r\n
+        \   <ApplicationIdS>328563</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328563</ApplicationId>\r\n
+        \     <DeterminationType>Application Part 1 Commence</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328563</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>37316</PropertyId>\r\n
+        \     <ApplicationId>328563</ApplicationId>\r\n      <ParcelId>45219</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>27</StreetNumber1>\r\n
+        \     <StreetNumber2>29</StreetNumber2>\r\n      <StreetName>Settlers Drive</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KALBAR</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>27  - 29 Settlers Drive</Line1>\r\n      <Line2>KALBAR QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 13 SP 210694</FullLegalDescription>\r\n      <Area>3973.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328563</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328563</ApplicationId>\r\n
+        \     <PartyId>371056</PartyId>\r\n      <PersonId>371056</PersonId>\r\n      <PropertyId>328563</PropertyId>\r\n
+        \     <FamilyName>Ampflo Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Ampflo Pty Ltd</FullName>\r\n      <TelephoneNumber>07 3372
+        9280</TelephoneNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328563</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328663</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Extension
+        of Time for Relevant Period</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/055</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>55</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-27T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
+        \   <OfficerId>JUDY.SA</OfficerId>\r\n    <Officer>Judy Sandmann</Officer>\r\n
+        \   <DADays>11</DADays>\r\n    <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328663</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328663</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>2089</PropertyId>\r\n      <ApplicationId>328663</ApplicationId>\r\n
+        \     <AssessmentId>181910000.00000</AssessmentId>\r\n      <ParcelId>17834</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName>Oaklands</SiteName>\r\n      <StreetNumber1>28</StreetNumber1>\r\n
+        \     <StreetName>Alice Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>28 Alice Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>L2-3
+        RP7567 L2 RP7606 &amp; L1 RP84194</FullLegalDescription>\r\n      <Area>748010.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>2089</PropertyId>\r\n
+        \     <ApplicationId>328663</ApplicationId>\r\n      <AssessmentId>181910000.00000</AssessmentId>\r\n
+        \     <ParcelId>17835</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName>Oaklands</SiteName>\r\n
+        \     <StreetNumber1>28</StreetNumber1>\r\n      <StreetName>Alice Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>28 Alice Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>L2-3
+        RP7567 L2 RP7606 &amp; L1 RP84194</FullLegalDescription>\r\n      <Area>998537.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>2089</PropertyId>\r\n
+        \     <ApplicationId>328663</ApplicationId>\r\n      <AssessmentId>181910000.00000</AssessmentId>\r\n
+        \     <ParcelId>17889</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName>Oaklands</SiteName>\r\n
+        \     <StreetNumber1>28</StreetNumber1>\r\n      <StreetName>Alice Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>28 Alice Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>L2-3
+        RP7567 L2 RP7606 &amp; L1 RP84194</FullLegalDescription>\r\n      <Area>101060.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>2089</PropertyId>\r\n
+        \     <ApplicationId>328663</ApplicationId>\r\n      <AssessmentId>181910000.00000</AssessmentId>\r\n
+        \     <ParcelId>20539</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName>Oaklands</SiteName>\r\n
+        \     <StreetNumber1>28</StreetNumber1>\r\n      <StreetName>Alice Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>28 Alice Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>L2-3
+        RP7567 L2 RP7606 &amp; L1 RP84194</FullLegalDescription>\r\n      <Area>661910.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328663</ApplicationId>\r\n
+        \     <PartyId>469133</PartyId>\r\n      <PersonId>469133</PersonId>\r\n      <PropertyId>328663</PropertyId>\r\n
+        \     <FamilyName>Jeff Nicholls Town Planning</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Jeff Nicholls Town Planning</FullName>\r\n      <EmailAddress>jeff@jntownplanning.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0421 559 066</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328663</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>328732</ApplicationId>\r\n
+        \   <ApplicationType>Building Envelope Amendment</ApplicationType>\r\n    <NatureOfApplicationType>RLBuildEnv</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Building Envelope Amendment</NatureOfApplication>\r\n
+        \   <ReferenceNumber>BuildEnv19/010</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
+        \   <ReferenceNumberNumber>10</ReferenceNumberNumber>\r\n    <StatusText>Lodged</StatusText>\r\n
+        \   <Status>Lodged</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-05-28T12:10:07.8+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Building Envelope Amendment</ApplicationDetails>\r\n
+        \   <OfficerId>KOBI.L</OfficerId>\r\n    <Officer>Kobi Lane</Officer>\r\n
+        \   <DADays>10</DADays>\r\n    <ApplicationIdS>328732</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328732</ApplicationId>\r\n      <DeterminationType>Lodged</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328732</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>6633</PropertyId>\r\n
+        \     <ApplicationId>328732</ApplicationId>\r\n      <ParcelId>19313</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>163</StreetNumber1>\r\n
+        \     <StreetNumber2>169</StreetNumber2>\r\n      <StreetName>Wongawallan
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMBORINE
+        MOUNTAIN</LocalityName>\r\n      <Postcode>4272</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>163  - 169 Wongawallan
+        Road</Line1>\r\n      <Line2>TAMBORINE MOUNTAIN QLD 4272</Line2>\r\n      <FullLegalDescription>Lot
+        5 RP 814773</FullLegalDescription>\r\n      <Area>8024.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>328732</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>328732</ApplicationId>\r\n      <PartyId>448005</PartyId>\r\n
+        \     <PersonId>448005</PersonId>\r\n      <PropertyId>328732</PropertyId>\r\n
+        \     <FamilyName>All Approvals Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>All Approvals Pty Ltd</FullName>\r\n      <EmailAddress>phil@allapprovals.com.au</EmailAddress>\r\n
+        \     <MobileNumber>0459 991 891</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328732</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>328777</ApplicationId>\r\n
+        \   <ApplicationType>Approving Plans of Subdivision</ApplicationType>\r\n
+        \   <NatureOfApplicationType>PlanSub</NatureOfApplicationType>\r\n    <NatureOfApplication>Plans
+        of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Building
+        Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/015</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>15</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-29T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>9</DADays>\r\n
+        \   <ApplicationIdS>328777</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328777</ApplicationId>\r\n
+        \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>328777</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>929754</PropertyId>\r\n
+        \     <ApplicationId>328777</ApplicationId>\r\n      <ParcelId>59512</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>18</StreetNumber1>\r\n      <StreetName>Hawthorn
+        Street</StreetName>\r\n      <StreetType />\r\n      <LocalityName>BEAUDESERT</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>18 Hawthorn Street</Line1>\r\n
+        \     <Line2>BEAUDESERT QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        25 SP 299702</FullLegalDescription>\r\n      <Area>683.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>328777</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>328777</ApplicationId>\r\n      <PartyId>354638</PartyId>\r\n
+        \     <PersonId>354638</PersonId>\r\n      <PropertyId>328777</PropertyId>\r\n
+        \     <FamilyName>Impact Homes</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Impact Homes</FullName>\r\n      <EmailAddress>certification@impacthomes.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 3489 6000</TelephoneNumber>\r\n      <MobileNumber>07
+        3489 6000</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328777</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328900</ApplicationId>\r\n    <ApplicationType>Reconfiguring
+        A Lot</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Boundary
+        Realignment</SubNatureOfApplication>\r\n    <ReferenceNumber>RAL19/018</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>18</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-31T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Boundary Realignment</ApplicationDetails>\r\n    <OfficerId>NARENDRA.S</OfficerId>\r\n
+        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>7</DADays>\r\n    <ApplicationIdS>328900</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328900</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328900</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>37270</PropertyId>\r\n      <ApplicationId>328900</ApplicationId>\r\n
+        \     <AssessmentId>144101130.00000</AssessmentId>\r\n      <ParcelId>45091</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>60</StreetNumber1>\r\n
+        \     <StreetName>Tequesta Drive</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>BEAUDESERT</LocalityName>\r\n      <Postcode>4285</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>60 Tequesta Drive</Line1>\r\n      <Line2>BEAUDESERT QLD 4285</Line2>\r\n
+        \     <FullLegalDescription>Lot 253 SP 220335</FullLegalDescription>\r\n      <Area>823.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328900</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328900</ApplicationId>\r\n
+        \     <PartyId>468966</PartyId>\r\n      <PersonId>468966</PersonId>\r\n      <PropertyId>328900</PropertyId>\r\n
+        \     <FamilyName>Andrews Town Planning</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Andrews Town Planning</FullName>\r\n      <EmailAddress>frank@andrewstownplanning.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 3311 2725</TelephoneNumber>\r\n      <MobileNumber>0431
+        411 877</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>328900</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>328966</ApplicationId>\r\n    <ApplicationType>Material
+        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Impact</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Impact</NatureOfApplication>\r\n    <SubNatureOfApplication>Industry
+        - Low Impact (Industrial Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/056</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>56</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-03T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Industry - Low Impact (Industrial Use)</ApplicationDetails>\r\n
+        \   <OfficerId>NARENDRA.S</OfficerId>\r\n    <Officer>Narendra Singh</Officer>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>328966</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328966</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>328966</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>19897</PropertyId>\r\n      <ApplicationId>328966</ApplicationId>\r\n
+        \     <ParcelId>24019</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName>Garbrook</SiteName>\r\n
+        \     <StreetNumber1>6371</StreetNumber1>\r\n      <StreetName>Mt Lindesay
+        Highway</StreetName>\r\n      <StreetType />\r\n      <LocalityName>VERESDALE</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>6371 Mt Lindesay
+        Highway</Line1>\r\n      <Line2>VERESDALE QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        7 RP 885012</FullLegalDescription>\r\n      <Area>360900.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>328966</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>328966</ApplicationId>\r\n
+        \     <PartyId>481862</PartyId>\r\n      <PersonId>481862</PersonId>\r\n      <PropertyId>328966</PropertyId>\r\n
+        \     <FamilyName>Zero Mass Water</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Zero Mass Water</FullName>\r\n      <EmailAddress>kristen@seromasswater.com</EmailAddress>\r\n
+        \     <MobileNumber>0412 131 957</MobileNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>328966</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>329147</ApplicationId>\r\n
+        \   <ApplicationType>Material Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Extension
+        of Time for Relevant Period</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/057</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>57</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-06T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
+        \   <DADays>1</DADays>\r\n    <ApplicationIdS>329147</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>329147</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>329147</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>926831</PropertyId>\r\n      <ApplicationId>329147</ApplicationId>\r\n
+        \     <ParcelId>30460</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName
+        />\r\n      <StreetName>Regal Drive</StreetName>\r\n      <StreetType />\r\n
+        \     <LocalityName>CANUNGRA</LocalityName>\r\n      <Postcode>4275</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Regal Drive</Line1>\r\n      <Line2>CANUNGRA QLD 4275</Line2>\r\n
+        \     <FullLegalDescription>Lot 50 SP 133904</FullLegalDescription>\r\n      <Area>484900.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329147</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>926831</PropertyId>\r\n
+        \     <ApplicationId>329147</ApplicationId>\r\n      <ParcelId>57442</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetName>Regal
+        Drive</StreetName>\r\n      <StreetType />\r\n      <LocalityName>CANUNGRA</LocalityName>\r\n
+        \     <Postcode>4275</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1> Regal Drive</Line1>\r\n
+        \     <Line2>CANUNGRA QLD 4275</Line2>\r\n      <FullLegalDescription>Lot
+        23 SP 254298</FullLegalDescription>\r\n      <Area>485900.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329147</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>329147</ApplicationId>\r\n
+        \     <PartyId>406427</PartyId>\r\n      <PersonId>406427</PersonId>\r\n      <PropertyId>329147</PropertyId>\r\n
+        \     <FamilyName>Planit Consulting Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Planit Consulting Pty Ltd</FullName>\r\n      <EmailAddress>admin@planitconsulting.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 5526 1500</TelephoneNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>329147</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>329172</ApplicationId>\r\n
+        \   <ApplicationType>Operational Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Extension
+        of Time for Relevant Period</SubNatureOfApplication>\r\n    <ReferenceNumber>OPW19/015</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>15</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-06T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
+        \   <DADays>1</DADays>\r\n    <ApplicationIdS>329172</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>329172</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>329172</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>19683</PropertyId>\r\n      <ApplicationId>329172</ApplicationId>\r\n
+        \     <ParcelId>28748</ParcelId>\r\n      <Status>C</Status>\r\n      <SiteName>Glen
+        Ellen</SiteName>\r\n      <StreetNumber1>8907</StreetNumber1>\r\n      <StreetName>Mt
+        Lindesay Highway</StreetName>\r\n      <StreetType />\r\n      <LocalityName>TAMROOKUM</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>8907 Mt Lindesay
+        Highway</Line1>\r\n      <Line2>TAMROOKUM QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        3 WD 3823</FullLegalDescription>\r\n      <Area>324650.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n
+        \     <ApplicationIdS>329172</ApplicationIdS>\r\n    </Address>\r\n    <Party>\r\n
+        \     <ApplicationId>329172</ApplicationId>\r\n      <PartyId>362227</PartyId>\r\n
+        \     <PersonId>362227</PersonId>\r\n      <PropertyId>329172</PropertyId>\r\n
+        \     <FamilyName>Kooralbyn Valley Chamber Of Commerce Incorporated</FamilyName>\r\n
+        \     <PartyRole>Applicant</PartyRole>\r\n      <FullName>Kooralbyn Valley
+        Chamber Of Commerce Incorporated</FullName>\r\n      <EmailAddress>gks82@hotmail.com</EmailAddress>\r\n
+        \     <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>329172</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n</NewDataSet>"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+recorded_with: VCR 5.0.0
