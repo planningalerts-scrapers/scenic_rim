@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+    uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx
     body:
       encoding: US-ASCII
       string: ''
@@ -25,6 +25,58 @@ http_interactions:
       - '300'
   response:
     status:
+      code: 302
+      message: Found
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Mon, 10 Jun 2019 05:51:22 GMT
+      Location:
+      - "/Common/Common/Terms.aspx"
+      Set-Cookie:
+      - ASP.NET_SessionId=ukngoetjfkzhjltej3tunjld; path=/; HttpOnly
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '142'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
+        moved to <a href=\"/Common/Common/Terms.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=ukngoetjfkzhjltej3tunjld
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
       code: 200
       message: OK
     headers:
@@ -35,9 +87,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Mon, 10 Jun 2019 05:50:43 GMT
-      Set-Cookie:
-      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg; path=/; HttpOnly
+      - Mon, 10 Jun 2019 05:51:22 GMT
       Vary:
       - Accept-Encoding
       X-Frame-Options:
@@ -60,7 +110,7 @@ http_interactions:
       string: ctl00_rcss_TSSM=&ctl00_script_TSM=&__VIEWSTATE=%2FwEPDwUKMTQ2MzgzODU5OQ9kFgJmD2QWAgIDD2QWBgIFDxYCHgRUZXh0BTM8YSBocmVmPSIuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Ij5Mb2dpbjwvYT5kAgkPFgIfAGVkAhEPZBYCAgEPZBYEAgEPFgIfAAXTJjxkaXYgc3R5bGU9IndpZHRoOjk1JTsgaGVpZ2h0OjM1MHB4OyBvdmVyZmxvdzphdXRvOyBib3JkZXI6c29saWQgMXB4ICNEREQ7IHBhZGRpbmc6M3B4OyI%2BDQo8cD48c3Ryb25nPlRlcm1zIGFuZCBDb25kaXRpb25zPC9zdHJvbmc%2BPHA%2BDQoNCjxwPllvdXIgdXNlIG9mIHRoZSBEZXZlbG9wbWVudCBBcHBsaWNhdGlvbiBhbmQgUHJvcGVydHkgT25saW5lIHNlcnZpY2UgKCJEQVAgT25saW5lIikgaXMgc3ViamVjdCB0byANCg0KYW5kIGNvbmRpdGlvbmFsIHVwb24geW91ciBhY2NlcHRhbmNlIG9mIHRoZXNlIFRlcm1zIG9mIFVzZS4NCjxici8%2BDQpQbGVhc2UgcmVhZCBhbmQgYWdyZWUgdG8gdGhlIHRlcm1zIGFuZCBjb25kaXRpb25zIGJlbG93IHRvIGFjY2VzcyB0aGUgc2l0ZS4gU2hvdWxkIHlvdSBoYXZlIGFueSANCg0KcXVlc3Rpb25zLCBwbGVhc2UgY29udGFjdCBDb3VuY2lsJ3MgUGxhbm5pbmcgRGVwYXJ0bWVudCBvbiA1NTQwIDUxMTEuDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5EaXNjbGFpbWVyPC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpUaGUgaW5mb3JtYXRpb24gcHJvdmlkZWQgYnkgREFQIE9ubGluZSBpcyBtYWRlIGF2YWlsYWJsZSBhcyBhIGdlbmVyYWwgcmVmZXJlbmNlIHNvdXJjZSBvbmx5Lg0KPGJyLz4NCkRBUCBPbmxpbmUgaXMgbm90IGludGVuZGVkIHRvIGJlIHVzZWQsIGZvciBmb3JtYWwgcHVycG9zZXMgc3VjaCBhcyBmb3IgdGhlIHB1cnBvc2VzIG9mIHByb3BlcnR5IA0KDQp0cmFuc2FjdGlvbnMgb3Igc2V0dGxlbWVudHMuIEFjY2VzcyB0byBkb2N1bWVudHMgYW5kIGluZm9ybWF0aW9uIGZvciBmb3JtYWwgcHVycG9zZXMgbXVzdCBiZSANCg0Kb2J0YWluZWQgdGhyb3VnaCBDb3VuY2lsJ3MgZm9ybWFsIGRvY3VtZW50IHNlYXJjaCBwcm9jZWR1cmVzLCBub3QgdGhyb3VnaCB0aGUgU2VydmljZS4NCjxici8%2BDQo8YnIvPg0KVGhlIENvdW5jaWwgbWFrZXMgbm8gcmVwcmVzZW50YXRpb25zIGFuZCBnaXZlcyBubyB3YXJyYW50aWVzIChleHByZXNzIG9yIGltcGxpZWQpIGFib3V0IHRoZSANCg0KaW5mb3JtYXRpb24gKGluY2x1ZGluZyBhY2N1cmFjeSwgcmVsaWFiaWxpdHksIGNvbXBsZXRlbmVzcywgcXVhbGl0eSwgbWVyY2hhbnRhYmlsaXR5LCBmaXRuZXNzIG9yIA0KDQpzdWl0YWJpbGl0eSkgZm9yIGFueSBwdXJwb3NlIG5vciB0aGF0IGFjY2VzcyB0byBhbmQgdXNlIG9mIHRoaXMgd2Vic2l0ZSBvciBzeXN0ZW0gaXMgZnJlZSBmcm9tIA0KDQpjb21wdXRlciB2aXJ1c2VzIG9yIG90aGVyIGluZmVjdGlvbnMgb3IgY29udGFtaW5hdGlvbnMuIE5vIGxpYWJpbGl0eSBpcyBhY2NlcHRlZCBieSB0aGUgQ291bmNpbCANCg0KKGluY2x1ZGluZyB3aXRob3V0IGxpbWl0YXRpb24sIHdoZXRoZXIgaW4gYW4gYWN0aW9uIG9mIGNvbnRyYWN0LCBuZWdsaWdlbmNlIG9yIG90aGVyIHRvcnRpb3VzIGFjdGlvbikgZm9yIA0KDQphbnkgbG9zcywgZGFtYWdlIG9yIGNvc3RzIChpbmNsdWRpbmcgY29uc2VxdWVudGlhbCwgc3BlY2lhbCBvciBpbmRpcmVjdCBkYW1hZ2VzKSByZWxhdGluZyB0byBhY2Nlc3MgDQoNCnRvLCB1c2Ugb2YsIG9yIHJlbGlhbmNlIHVwb246DQo8YnIvPg0KPHVsPg0KPGxpPnRoZSBpbmZvcm1hdGlvbiBvYnRhaW5lZCB1c2luZyBEQVAgT25saW5lOyBvcjwvbGk%2BDQoNCjxsaT5EQVAgT25saW5lIGl0c2VsZi48L2xpPg0KPC91bD4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPkNoYW5nZXMgdG8gQWdyZWVtZW50IGFuZCBTZXJ2aWNlPC9zdHJvbmc%2BPHA%2BDQo8cD4NCkNvdW5jaWwgbWF5IHZhcnkgdGhlIFRlcm1zIG9mIFVzZSAoVGVybXMpIGF0IGFueSB0aW1lIGJ5IHBvc3RpbmcgdGhlIHZhcmllZCBUZXJtcyBvbiBpdHMgd2Vic2l0ZSANCg0KKCJ0aGUgU2l0ZSIpLiBUaGUgdmFyaWVkIFRlcm1zIHdpbGwgdGFrZSBlZmZlY3QgaW1tZWRpYXRlbHkgYWZ0ZXIgYW55IHZhcmlhdGlvbiBpcyBwb3N0ZWQgb24gdGhlIA0KDQpTaXRlLiBUaGUgdmVyc2lvbiBvZiB0aGUgVGVybXMgY3VycmVudGx5IG9uIHRoZSBTaXRlIGF0IGFueSB0aW1lIGdvdmVybnMgeW91ciB1c2Ugb2YgREFQIE9ubGluZS4gDQoNCklmIHlvdSBjb250aW51ZSB0byB1c2UgREFQIE9ubGluZSwgeW91ciBjb250aW51ZWQgdXNlIHdpbGwgY29uc3RpdHV0ZSBhY2NlcHRhbmNlIG9mIHRoZSBUZXJtcyANCg0KYW5kIGFueSB2YXJpYXRpb25zIHRvIGl0LiBDb3VuY2lsIHJlc2VydmVzIHRoZSByaWdodCB0byBjaGFuZ2UgYW55IGFzcGVjdCBvZiBEQVAgT25saW5lLCBpbmNsdWRpbmcgDQoNCm1vZGlmeWluZywgc3VzcGVuZGluZywgcmVwbGFjaW5nIG9yIHRlcm1pbmF0aW5nIERBUCBPbmxpbmUgYXMgd2VsbCBhcyBpbXBvc2luZyBhbnkgZmVlIGZvciBhY2Nlc3MgDQoNCnRvIERBUCBPbmxpbmUuIENvdW5jaWwgd2lsbCBoYXZlIG5vIGxpYWJpbGl0eSB0byB5b3UgaWYgREFQIE9ubGluZSBpcyBtb2RpZmllZCwgc3VzcGVuZGVkLCByZXBsYWNlZCANCg0Kb3IgdGVybWluYXRlZC4gWW91IGFncmVlIHRvIHdhaXZlIGFsbCByaWdodHMgeW91IG1heSBoYXZlIGFnYWluc3QgQ291bmNpbCBpbiByZXNwZWN0IG9mIGFueSBzdWNoIA0KDQphY3Rpb24gdGFrZW4gYnkgQ291bmNpbC4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPkNvcHlyaWdodDwvc3Ryb25nPjwvcD4NCjxwPg0KSUNPTiBzb2Z0d2FyZSAocmVmZXJyZWQgdG8gaW4gdGhlc2UgdGVybXMgYW5kIGNvbmRpdGlvbnMgYXMgRGV2ZWxvcG1lbnQgQXBwbGljYXRpb24gYW5kIFByb3BlcnR5IA0KDQpPbmxpbmUpIGlzIHByb3ZpZGVkIHdpdGggYSBub24tZXhjbHVzaXZlIGxpY2VuY2UgdG8gU2NlbmljIFJpbSBSZWdpb25hbCBDb3VuY2lsLiBDb21waWxhdGlvbiANCg0Kb2YgdGhlIERldmVsb3BtZW50IEFwcGxpY2F0aW9uIGFuZCBQcm9wZXJ0eSBPbmxpbmUgY29udGVudCAoZXhjbHVkaW5nIGNvbnRlbnQgb2YgdGhpcmQgcGFydHkgDQoNCmRvY3VtZW50YXRpb24gYW5kIGluZm9ybWF0aW9uKSDvv70gQ29weXJpZ2h0IFNjZW5pYyBSaW0gUmVnaW9uYWwgQ291bmNpbC4NCjwvcD4NCjxici8%2BDQo8cD5FeGNlcHQgZm9yIHRoZSBwdXJwb3NlIGV4cHJlc3NseSBzdGF0ZWQgYmVsb3cgYW5kIGZvciBwdXJwb3NlcyBwZXJtaXR0ZWQgYnkgdGhlIENvcHlyaWdodCANCg0KQWN0IDE5NjggKEN0aCksIHJlcHJvZHVjdGlvbiwgcHVibGljYXRpb24sIGNvbW11bmljYXRpb24gdG8gdGhlIHB1YmxpYywgYWRhcHRhdGlvbiwgc2VsbGluZywgcmUtDQp0cmFuc21pc3Npb24sIHJlZnJhbWluZywgbGlua2luZywgY29tbWVyY2lhbCBvciBvdGhlciB1c2UgKHdoZXRoZXIgZm9yIGNvbXBlbnNhdGlvbiBvZiBhbnkga2luZCBvciANCg0Kbm90KSBvZiBkb2N1bWVudHMsIGNvbnRlbnQgb3IgaW5mb3JtYXRpb24gbWFkZSBhdmFpbGFibGUgdXNpbmcgREFQIE9ubGluZSBieSB3aGF0ZXZlciBtZWFucyBpcyANCg0KcHJvaGliaXRlZCB1bmxlc3MgdGhlIHdyaXR0ZW4gY29uc2VudCBvZiB0aGUgQ29weXJpZ2h0IG93bmVyIGlzIG9idGFpbmVkLg0KPC9wPg0KPGJyLz4NCjxwPkRBUCBPbmxpbmUgdXNlcnMgYXJlIGV4cHJlc3NseSBwZXJtaXR0ZWQgdG8gcmVwcm9kdWNlIHRoZSBjb250ZW50cyBvZiBEQVAgT25saW5lIHdlYnNpdGUgaW4gdGhlaXIgDQoNCndlYiBicm93c2VyIChhbmQgaW4gYW55IGNhY2hlIGZpbGUgcHJvZHVjZWQgYnkgdGhlaXIgd2ViIGJyb3dzZXIpIGZvciB0aGUgc29sZSBwdXJwb3NlIG9mIHRoZWlyIA0KDQpwZXJzb25hbCBub24tY29tbWVyY2lhbCB2aWV3aW5nIG9mIHRoZSBjb250ZW50IGFuZCBwcmludGluZyBvZiBQREYgZG9jdW1lbnRhdGlvbi4NCjwvcD4NCjxici8%2BDQo8cD48c3Ryb25nPlJpZ2h0IHRvIGdyYW50IG9yIHJlZnVzZSBhY2Nlc3M8L3N0cm9uZz48L3A%2BDQo8cD4NCkFjY2VzcyB0byBEQVAgT25saW5lIGlzIGF0IHRoZSBkaXNjcmV0aW9uIG9mIHRoZSBDb3VuY2lsLiBUaGUgQ291bmNpbCByZXNlcnZlcyB0aGUgcmlnaHQgdG8gcmVmdXNlIA0KDQp0byBhbGxvdyBhY2Nlc3MgdG8gYW55IHBhcnQgb2YgRGFwIE9ubGluZSB3aXRob3V0IHByaW9yIG5vdGljZSwgYW5kIHdpdGhvdXQgdGhlIG5lZWQgdG8gZ2l2ZSBhbnkgDQoNCnJlYXNvbiBmb3IgZG9pbmcgc28uDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5Hb3Zlcm5pbmcgbGF3PC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpBbGwgbWF0dGVycyByZWxhdGluZyB0byB0aGlzIHdlYnNpdGUgYXJlIGdvdmVybmVkIGJ5IHRoZSBsYXdzIG9mIHRoZSBTdGF0ZSBvZiBRdWVlbnNsYW5kLCBBdXN0cmFsaWEgDQoNCmFuZCB1c2VycyBzdWJtaXQgdG8gdGhlIG5vbi1leGNsdXNpdmUganVyaXNkaWN0aW9uIG9mIHRoZSBDb3VydHMgb2YgdGhhdCBTdGF0ZSBhbmQgY291cnRzIG9mIGFwcGVhbCANCg0KZnJvbSB0aGVtLg0KPC9wPg0KPGJyLz4NCjxwPjxzdHJvbmc%2BU3lzdGVtIFJlcXVpcmVtZW50czwvc3Ryb25nPjwvcD4NCjxwPg0KREFQIE9ubGluZSBoYXMgYmVlbiB0ZXN0ZWQgYW5kIGNlcnRpZmllZCB0byBmdW5jdGlvbiBjb3JyZWN0bHkgaW4gYWxsIG1vZGVybiBicm93c2Vycy4gU29tZSANCg0KZnVuY3Rpb25hbGl0eSwgZS5nLiBtYXBwaW5nLCB2aWV3aW5nIG9mIGRvY3VtZW50cywgbWF5IHJlcXVpcmUgYWRkaXRpb25hbCBzb2Z0d2FyZSB0byBiZSBpbnN0YWxsZWQuIA0KDQpDb3VuY2lsIGlzIG5vdCBpbiBhIHBvc2l0aW9uIHRvIHByb3ZpZGUgaGVscCBkZXNrIHN1cHBvcnQuDQo8L3A%2BDQo8YnIvPg0KPHA%2BPHN0cm9uZz5Db21tZW5jZW1lbnQgb2YgVXNlPC9zdHJvbmc%2BPC9wPg0KPHA%2BDQpBbGwgaW5mb3JtYXRpb24gcHJvdmlkZWQgaXMgY3VycmVudCBmb3IgZGV2ZWxvcG1lbnQgYXBwbGljYXRpb25zIGxvZGdlZCBhZnRlciAxIEp1bHkgMjAwOS4NCg0KSSBoYXZlIHJlYWQgYW5kIHVuZGVyc3Rvb2QgdGhlIHByb3Zpc2lvbnMgc2V0IG91dCBhYm92ZS4NCjwvcD4NCjwvZGl2Pg0KPGJyLz4NCg0KDQoNCmQCCQ8WAh8AZWQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFGmN0bDAwJGN0TWFpbiRjaGtBZ3JlZSRjaGsxdhjPrxFZxZXfDRmLmXzx0%2BwaTcs%3D&__VIEWSTATEGENERATOR=A8DC4E82&__EVENTVALIDATION=%2FwEdAAQhAUIq3x8ENRTIXfnBkSI9OcBhpQsJgyMjpoz897IvWkTdyBz%2Fe%2FCcgfJ5zxj4jwg%2FVxUvaVtQChmSC3DOB0MpbhL5nzDI5n4Yh25oiYgR3L9R1Qk%3D&ctl00%24ctMain%24chkAgree%24chk1=on&ctl00%24ctMain%24BtnAgree=I+Agree
     headers:
       Accept-Encoding:
-      - identity
+      - gzip,deflate,identity
       Accept:
       - "*/*"
       User-Agent:
@@ -70,7 +120,7 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
+      - ASP.NET_SessionId=ukngoetjfkzhjltej3tunjld
       Host:
       - srr-prod-icon.saas.t1cloud.com
       Referer:
@@ -90,210 +140,29 @@ http_interactions:
     headers:
       Cache-Control:
       - private
+      Content-Encoding:
+      - gzip,gzip
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Mon, 10 Jun 2019 05:50:43 GMT
+      - Mon, 10 Jun 2019 05:51:22 GMT
       Location:
       - "/Pages/XC.Home/Home.aspx"
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
-      - '141'
+      - '131'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: "<html><head><title>Object moved</title></head><body>\r\n<h2>Object
-        moved to <a href=\"/Pages/XC.Home/Home.aspx\">here</a>.</h2>\r\n</body></html>\r\n"
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEALPJKMnNsbPJSE1MsbMpySzJSbXzT8pKTS5RyM0vS02x0YeI2ehDVCTlp1Ta8XLZZBihKFMoyVewSVTIKEpNs1XSD0hMTy3Wj3DW88jPTdUHEXqJxQUVSnYZqUWpNvqJdnpA44xAxuiDzQPyQI7g5QIABENJmY0AAAA=
     http_version: 
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 - request:
     method: get
     uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Home/Home.aspx
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - identity
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
-      Accept-Charset:
-      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
-      Accept-Language:
-      - en-us,en;q=0.5
-      Cookie:
-      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
-      Host:
-      - srr-prod-icon.saas.t1cloud.com
-      Referer:
-      - https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
-      Connection:
-      - keep-alive
-      Keep-Alive:
-      - '300'
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Cache-Control:
-      - private
-      Content-Type:
-      - text/html; charset=utf-8
-      Date:
-      - Mon, 10 Jun 2019 05:50:43 GMT
-      X-Frame-Options:
-      - SAMEORIGIN
-      Content-Length:
-      - '11045'
-      Connection:
-      - keep-alive
-    body:
-      encoding: UTF-8
-      string: "\r\n\r\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
-        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\"
-        >\r\n<head id=\"ctl00_Head1\"><title>\r\n\tIcon Software Administration\r\n</title><meta
-        http-equiv=\"Expires\" content=\"0\" /><meta http-equiv=\"Cache-Control\"
-        content=\"no-cache\" /><meta http-equiv=\"Pragma\" content=\"no-cache\" /><link
-        href=\"../../favicon.ico\" type=\"image/x-icon\" rel=\"icon\" /><link href=\"../../favicon.ico\"
-        type=\"image/x-icon\" rel=\"shortcut icon\" /><link href=\"../../HttpCombiner.ashx?s=IconCss&amp;t=text/css\"
-        type=\"text/css\" rel=\"Stylesheet\" media=\"all\" />\r\n\t<base target=\"_top\"
-        />\r\n\t\r\n\t<!-- Conditional Queries to load the Formatted Lists CSS files
-        -->  \r\n    <!--[if lt IE 8]>\r\n        <link type=\"text/css\" href=\"../../App_Themes/Icon/IE7.css\"
-        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if gt IE 7]>\r\n\t
-        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
-        rel=\"Stylesheet\" />\r\n    <![endif]-->\r\n\r\n    <!--[if !IE]><!-->\r\n\t
-        \   <link type=\"text/css\" href=\"../../App_Themes/Icon/FormattedLists.css\"
-        rel=\"Stylesheet\" />\r\n    <!--<![endif]-->\r\n\t\r\n\t\r\n    <style type=\"text/css\">\r\n
-        \       .bodycopy {\r\n            margin: 0px 0px 5px 0px;\r\n            padding:
-        0px 0px 5px 0px;\r\n        }\r\n\r\n        .bodycopy li {\r\n            list-style-type:
-        disc;  \r\n        }\r\n\r\n        a:hover {\r\n            color: black;\r\n
-        \           width: auto;\r\n            text-decoration: underline;\r\n            font-weight:
-        bold;\r\n        }\r\n\r\n        a, a:link, a:visited, a:active {\r\n            color:
-        black;\r\n            text-align: left;\r\n            text-decoration: none;\r\n
-        \           font-weight: bold;\r\n            width: auto;\r\n            background-color:
-        transparent;\r\n            border: 0;\r\n            font-size: 12px;\r\n
-        \       }\r\n    </style>\r\n<link href=\"../../App_Themes/Default/Default.css\"
-        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/QPPstyle.css\"
-        type=\"text/css\" rel=\"stylesheet\" /><link href=\"../../App_Themes/Default/User.css\"
-        type=\"text/css\" rel=\"stylesheet\" /></head>\r\n<body>\r\n    <form method=\"post\"
-        action=\"./Home.aspx\" id=\"aspnetForm\" role=\"form\">\r\n<input type=\"hidden\"
-        name=\"ctl00_rcss_TSSM\" id=\"ctl00_rcss_TSSM\" value=\"\" />\r\n<input type=\"hidden\"
-        name=\"ctl00_script_TSM\" id=\"ctl00_script_TSM\" value=\"\" />\r\n<input
-        type=\"hidden\" name=\"__VIEWSTATE\" id=\"__VIEWSTATE\" value=\"/wEPDwUKMTc4MDQ4OTc2NQ9kFgJmD2QWAgIDD2QWBAIHDxYCHgRUZXh0BTM8YSBocmVmPSIuLi8uLi9QYWdlcy9TZWN1cml0eS9Mb2dpbi5hc3B4Ij5Mb2dpbjwvYT5kAgsPFgIfAGVkZOuomceiV6HM8UwS4IRvy63+aNde\"
-        />\r\n\r\n\r\n<script src=\"/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl00_script_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen%3ad469afcf-7bb2-42b0-a0c2-3f036d3832f2%3aea597d4b\"
-        type=\"text/javascript\"></script>\r\n<script type=\"text/javascript\">\r\n//<![CDATA[\r\nif
-        (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework
-        failed to load.');\r\n//]]>\r\n</script>\r\n\r\n<input type=\"hidden\" name=\"__VIEWSTATEGENERATOR\"
-        id=\"__VIEWSTATEGENERATOR\" value=\"2353AB4D\" />\r\n        \r\n        <script
-        type=\"text/javascript\" src=\"../../HttpCombiner.ashx?s=IconJs&t=text/javascript\"></script>\r\n
-        \       <div id=\"ctl00_throbber_throbber\" class=\"globalThrobber\">\r\n
-        \   <img class=\"throbber\" src=\"../../Common/Common/Image.aspx?rid=spinner-large.gif\"
-        alt=\"Loading...\" />\r\n</div>\r\n\r\n<script type=\"text/javascript\">\r\n
-        \   $(document).ready(function(){        \r\n        $('.globalThrobber')\r\n
-        \           .ajaxStart(function() {\r\n                if ($('.throbber:visible').length
-        == 0) {\r\n                    $(this).show();\r\n                }\r\n            })
-        \ \r\n            .ajaxStop(function() {\r\n                $(this).hide();\r\n
-        \           })\r\n        ;\r\n    });\r\n</script>\r\n        \r\n\r\n<script
-        type=\"text/javascript\">\r\n    /*This script is designed to alert the user
-        when session timout is reached and redirect to home page*/\r\n    var timer1;\r\n
-        \   window.clearTimeout(timer1);\r\n    var $dialog;\r\n    $(document).ready(function()\r\n
-        \   {\r\n        $dialog = $('<div></div>').html('Your session has expired,
-        you will now be redirected to the home page.').dialog(\r\n        {\r\n            buttons:\r\n
-        \           {   \r\n                'Ok': function()\r\n                {\r\n
-        \                   $(this).dialog('close');\r\n                    window.location
-        = 'http://srr-prod-icon.saas.t1cloud.com/Pages/XC.Home/Home.aspx';\r\n                }\r\n
-        \           },\r\n            show: \"fade\",\r\n            hide: \"fade\",\r\n
-        \           resizable: false,\r\n            modal: true,\r\n            autoOpen:
-        false,\r\n            title:  'Session Expired'\r\n        });\r\n    });\r\n
-        \   var sessionTimeout = '1199000';\r\n    function doTimeout()\r\n    {\r\n
-        \       $dialog.dialog('open');\r\n        return false;\r\n    }\r\n    timer1
-        = window.setTimeout('doTimeout()',sessionTimeout);\r\n</script>\r\n        <div
-        class=\"src_container\">\r\n            <div id=\"docf\">\r\n                <div
-        id=\"hd\" role=\"banner\">\r\n                \r\n                <!--<div
-        id=\"navwrap\" role=\"navigation\">  \r\n                        <div id=\"nav\"
-        class=\"floatLeft adminnav menushell\">\r\n                            <a
-        class=\"megaMenuLink\" _megamenupos=\"0pos\" href=\"../../Pages/XC.Home/Home.aspx\">Home</a>\r\n
-        \                           <a class=\"megaMenuLink\" _megamenupos=\"1pos\"
-        href=\"../../Pages/Home/About.aspx\">About us</a>\r\n                            <a
-        class=\"megaMenuLink\" _megamenupos=\"2pos\" href=\"../../Pages/XC.Home/Home.aspx\">News</a>\r\n
-        \                           <a class=\"megaMenuLink\" _megamenupos=\"4pos\"
-        href=\"http://www.iconsoftware.com.au\">Contact ICON</a>\r\n                        </div>\r\n
-        \                   </div>\r\n                -->\r\n                 \r\n
-        \                   <!-- Hide Login -->\r\n                    <div id=\"nav\"
-        class=\"floatRight adminnav\" style=\"display:none;\">  \r\n                        <a
-        href=\"../../Pages/Security/Login.aspx\">Login</a>\r\n                    </div>
-        \ \r\n                              \r\n                    <div class=\"logo\">\r\n
-        \                       <a href=\"/\" style=\"float:left;\">\r\n                            <img
-        src=\"/Images/Scenic-Logo.jpg\" alt=\"Scenic Rim Logo\" width=\"250\" height=\"96\">\r\n
-        \                       </a>\r\n                        <span style=\"font-size:3em;color:#005244;line-height:96px;float:left;margin-left:50px;\">DAP
-        Online</span>\r\n                        <div style=\"clear:both;\"></div>\r\n
-        \                   </div>\r\n                    \r\n                    <div
-        id=\"navigation\">\r\n                        <ul class=\"nav\">\r\n                            <li><a
-        href=\"../XC.Home/Home.aspx\">Home</a></li>\r\n                            <li><a
-        href=\"../XC.Track/SearchProperty.aspx\">Property</a></li>\r\n                            <li><a
-        href=\"../XC.Track/SearchApplication.aspx\">Applications</a></li>\r\n                        </ul>\r\n
-        \                   </div>\r\n                    <!-- START NOT USED -->\r\n
-        \                   <!-- HIDE green container --> \r\n                    <div
-        class=\"clear adminclear\"></div> \r\n                    <div id=\"mainline\"
-        style=\"display:none;\">\r\n                        <div class=\"containerLeft
-        adminbanner splitterLeftMaster noOverflow\">\r\n                            \r\n
-        \                           <div style=\"margin-top:5px; padding:3px; padding-left:12px;display:none;\"
-        id=\"adminpage\">\r\n                                \r\n                            </div>\r\n
-        \                       </div>\r\n                        <div class=\"containerRight
-        adminbanner splitterRightMaster noOverflow\">\r\n                            \r\n
-        \                       </div>\r\n                    </div>\r\n                    <!--
-        END NOT USED-->\r\n\r\n                    <div class=\"clear\"></div>\r\n
-        \               </div>\r\n                <div class=\"clear\"></div> \r\n
-        \               <div id=\"bd\" role=\"main\">\r\n                    <div
-        id=\"main\">\r\n                        <div class=\"containerFull\">\r\n
-        \                           <div class=\"containerInner\">\r\n                                <div
-        class=\"padded\">\r\n                                    \r\n                                    \r\n
-        \   <div id=\"ctl00_ctMain_main\" style=\"\">\r\n        <h2>DAP Online Home</h2>\r\n
-        \       <br />\r\n        <p class=\"bodycopy\">\r\n        Welcome to Scenic
-        Rim Regional Council's online Development Application and Property Enquiry
-        Service.\r\n        </p>\r\n        <p class=\"bodycopy\">\r\n        Development
-        Application and Property Enquiry is a service to provide residents, applicants
-        and contractors, development industry, visitors and the business sector with
-        up to date information \r\n        on the progress of properly-made development
-        applications where Council is the Assessment \r\n        Manager within the
-        Scenic Rim Region. The information provided online is made available for \r\n
-        \       general information only and is provided in good faith.\r\n        </p>\r\n
-        \       <p class=\"bodycopy\">\r\n            After a development application
-        is properly made with Council, the online tracking service can provide information
-        on the progress of the application through to the decision stage. Details
-        of \r\n            the current status, the various stage of the assessment
-        process and viewing of publicly available \r\n            documentation are
-        all available for most applications (excluding building works and plumbing
-        \r\n            applications).\r\n        </p>\r\n        <p class=\"bodycopy\">\r\n
-        \           Please select an option from the menu below:\r\n        </p>\r\n
-        \       <ul>\r\n          <li class=\"bodycopy\"><a href=\"../XC.Track/SearchProperty.aspx\"><!--
-        img src=\"../../common/baseimages/arrow-right.gif\"/ -->Property Enquiry</a>\r\n
-        \           For details on a given property or to perform a land use enquiry</li>\r\n
-        \         <li class=\"bodycopy\"><a href=\"../XC.Track/SearchApplication.aspx\"><!--
-        img src=\"../../common/baseimages/arrow-right.gif\"/ -->Application Enquiry</a>\r\n
-        \           For application details for a given application number or property</li>\r\n
-        \       </ul>\r\n        <br/>\r\n    </div>\r\n    <br/>\r\n    <div class=\"struct\"></div>\r\n\r\n
-        \                                   \r\n    \r\n    \r\n\r\n                                </div>\r\n
-        \                           </div>\r\n                        </div>\r\n                    </div>\r\n
-        \               </div>\r\n                <div class=\"footer\">\r\n                    <br
-        />\r\n                    <br />\r\n                    <p>\r\n                        <a
-        href=\"http://www.scenicrim.qld.gov.au\">Home</a>\r\n                    </p>\r\n
-        \               </div>\r\n            </div>\r\n            \r\n        </div>\r\n
-        \       \r\n        <script type=\"text/javascript\" src=\"../../Common/Javascript/final.js\"></script>\r\n
-        \       <script type=\"text/javascript\" src=\"../../Common/User/User.js\"></script>
-        \r\n        <script type=\"text/javascript\">\r\n            $(document).ready(function
-        () {\r\n                document.title = document.title + ' - ICON Software';\r\n
-        \           });\r\n        </script>\r\n    </form>\r\n</body>\r\n</html>"
-    http_version: 
-  recorded_at: Tue, 14 May 2019 14:00:00 GMT
-- request:
-    method: get
-    uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?d=last28days&o=xml
     body:
       encoding: US-ASCII
       string: ''
@@ -309,7 +178,61 @@ http_interactions:
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
+      - ASP.NET_SessionId=ukngoetjfkzhjltej3tunjld
+      Host:
+      - srr-prod-icon.saas.t1cloud.com
+      Referer:
+      - https://srr-prod-icon.saas.t1cloud.com/Common/Common/Terms.aspx
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '300'
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - text/html; charset=utf-8
+      Date:
+      - Mon, 10 Jun 2019 05:51:22 GMT
+      Vary:
+      - Accept-Encoding
+      X-Frame-Options:
+      - SAMEORIGIN
+      Content-Length:
+      - '3995'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAO29B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/In7j5DdOHv+uT788efP7vDxN5+2iTF9+9eT52Un60fbdu9+9d3L37tM3T9Pf+9tvvnie7o530jd1tmyKtqiWWXn37umLj9KP5m27enT37tXV1fjq3riqL+6+eXX3HWDt4mX9dbv13hzP2tlHR9Q1vkrfLcpl81kEzu7Dhw/l9Y9Sbp1ns7SYffbRtC13dn7/b9Ofux8dPW6Ltszp+x87m1bL9HV13l5ldZ4ezxbFsmioX3RKr9+Vho8XeZul6G07/0Xr4vKzj07frYo6bz5K6f02X7affbTzUXo30vAkm87z7RNqVVeEk22+rLan+Cr+1ss6u1hkQ83LYvk2ndf5+Wcfjcd36X/n2WVBTcf0z0dpe73KP/uoWGQX+d132/TR8qO0zkv6iH/9+u8386pup+s2lc9igL5NYzipFpNimdfjrJm/+z2az0Dik6b5hdliddh+1ubv2rvThign/bi/uY/X7XWZN/M8bz9KF/msyD77KCuJbncxWY8nWZOnbVZf5ESS37+tVvoF/e/x77q9nRKZZ8ov6U+s87rIm7St0rIiJmjnefqsqhdZ2+az9DnNcpOevH6dnhfUYbq9fZSmv3GS0gNI3yvO07JNz07Tg+9TB/QpPzLgLuI+AY5Xq9//zTxf5M1djPvu2emDMTfqjQ6IE0jq7ns5YX3+fUIBskUf0WeCwgWj8AAo/Bh9/DX6tyPmAX8AKr/r2en3j/AHffPDwWV7O8QHs6zfNXih2zc1oe/4GU+q2fW0Wl2nv9h9iGdBvFMsH6U7q3f8//v0f/p5GLZaZbNZsbzY1OyXGPrgcd2VRbfHksa6zfhuA99H6axopoeG1/AEoLJH8+oyr7tQplVZ1Y/SSZlN33pY4LkqZu38UZqt26rzDSizPcunlaizR+l6Octrmra80/CctMz2VV5czFvqoypn3vchdiNCkAC8xc/LgnRzPsOv2bQtLvP3QJpRy8rigrAq8/M29rWP+bJ6L6TxDNNlQvhc1BVRY1tRJIW/bFZkAZZdTCZVTTQjTuh8zr03xQ9oQnf3upxB/6aP7/KkE1OKoAwIxtP8PFuXrfkpQgFG8RhbhITBWSG5FdCfePmS3/pmoX7VkG5nCLeBeBcWGFSAjNBPIk36+Jw0Aan3dl6RZV5VDTUFC1VL6vbut6tFTrZj9e6jFIabflvmLXQHdVCV1CHehrQ/LpYrskaCxbyYzXKySstsQX+Jta8Jq9//zevXXwik3oeXWbmmxsDzFtCaaV2sWnqV3nTg/E9vC+/3//1/8uz0u6/fHL85FVDBBwrl7tXpy6dXX/1eX7yZ7n/x9Cf2v3wz3XvxEw/fPrv4zuLp3k989/ji7Cl+Pjk++/bTd7/PybcvXn31U7/3fOfJmy8Ofp/XT6rp4icXL1+frZ8XB/T/hz/x+3x3Vk6vH775qe++2J0uyp389cMvJnuz1aS4P5/ee7J/9tP35e+fvrr8fd7cf3t80bx8dnF2fvz5T779qS/X1WKaFz/56be/OPjq6vX+2avL60/vfZK9mLFHAh1BIxZapE09JfTf5CUZ4Lfj7+aT8Vdn+PEqb6p1PaXJfTf7PUCx3//bTJZnRV7Ofv/PuvRkh2FaLVbkZzWf7fKf+Pz3Vwdj9pqbNr//Z7/7vQn97/V10+YLdDQ+fUdeU1NUy+Z335t+8pN5jd9/93uz/fEO/sOHJ8TK6zqnD5f5muS/xIcv15OymP5e+fWb6m2OF+7tTs7vHdz/NJvd+3Q/v3f/d7+X4fNstv/pw+x8er79YDLZ297fm+xsZzvTve175zv3Pp3dO7i3d75HzfLs/sMHs/1JICo/nV1mMkpyRO/Kb0RBQ72Blr9xcvcu2cOTp8dvjr/3GydkkbfQsjrfonHfST/77LP0Y9Jo+Tko8/Edcnfq6ipd5lfpaV1X9dbHx69fjl+cvkmPfzp7l07LgnQdKbBZnp7X2SK/quq36XlGvhB5SuIxjT++Q2rt7t3vw/3wEKU/bsXan5++OH11/ObLVz0e975RZt+7d//e8ZP9p2Am0RF43G+biSMcR9qK/jfkgX6n+YXqfHov+vSnXvh5PCsuGWHhR9BxMslr+ws55WVGDPnRRVlNsvKN+VhBPC4WF6aFe8VDkJBbkDOkP87gZhOeq3e/R02dNqtiSYhvl+Sn5OOL4pwUY0m+7nOaD/JIxuOxUOjxXcKSftJvMoABylATwin93bZm1XS9oCm/M65JH19vna+XrHC37vxi+p4faYrnd9v6eByO7uM77ls844y46DV54q0HqWv/8YBPAc6Qgr2GSZl/fGdc5suLdk6cm+5EX8Xzu22186K5M6bQ42oL7EifBY9aW/P8kjv+OPAoptXqBkRNT8TOea+nX+INX7/6JWgTYZ9bz8ndb72hDlP5MKXfZnlD/pDIX0a6k96nkGVN1ja9mufLtCE1SOinbbGoSProDZpKCglnabac0e8zCkin9FKVzsmCkhN7kX/rrvR1mdV4La93CWn6m5yj5ay6Gk/LPKvf0BcEcEsaYFjUgF/53Sj+KqsL/WQTE0kLj6z6avoZvfYxRIpEDf/SvCM43/r49yFTYIc0z5o054ia3Mnrak34lSU5fVfpJLcjo4HS2EATOz5SUWPpaMt17WGBZ7JuWzIEj8JPwfXhJ3g+/vLtx4/S7rD8pwPcPIZ7FJmPp2XVEI8r5bqPUr+spuzeEpE+RvBPmYymrrdXdTXjsHvcZFkzbncJ2Ho2Jkt49yWNubn7e5+M4SM5R+njSD9dwRiFf0OgHqUfnWdkwDtfQQIGviJLXPwgI/ElImVlk3e+XlSzrIQ3ve5+Ay/8y1VOnnzsPU6yPCLyv1Z+kOzK7GPXjMWNfrpfwKDKP8rBoOMuJYB2dnYMRcxUprNKG5lJ9SZSedVOXkWIBnNX5+QqLAV1/VjJKzJDHeuUNnlr+vnY6/LjUYgpgEd0B+TE2A6yGL8/8UCbwZAZnWEebkjm4iOSyPPul3hsg/nMeM2TDJYl1rj/CQffBsQyu7yqM0q1CBz6s7hgvv3Ipkxij/++tZnn5Fi0zyngSzOk2ugrCgOWawoXKMkTQc1/HmcGyiK/yL6g155TtPJR+vvjT0ChQILScPRvmIYYEJqPjvDr47vZN9LtLv0b6xZ93D2e0Jxrp/w7afVvquM9+jfWcWS8L/Krb6zbffrXdKu6C1lYqK1Gs6nQWONs/dERZeVaCu/Ss5MvX2zuX2xE/Puh7zg3RD/DJ/IRPeDrlIKOPH1eUR5o4F16hpn3FRIOlnvJs0O4S4JYNKsyu37EiYobBINSvUw3miv6n0zX63y6rov2+i4jphPGvw9TTCiyqSt54t/zEHVkpPaqTeJnUb5rB8zEeMS5m01v4mGXmPQZvc7uLo12mi+L6TaNrxr/9OpCnVz5NH1VLDA9lInmFA6x+H3Krc850/PZRw8/3dTdMLHwPKYcD/lROgDiSgqAKINzL19QnIlE0I/v7Nzf298/pDRIvi09Pnr4KaV3vNFKCnEbvz+6j6TgR0dPj1+mXy7xEil16mITCqC6YsDe16NJ1c4Jhkxm/MVN38U/5W6Uf622jjfF83hdGlagFza1xENZoiPLEcTBEVWDXzEXj+9S2/eGRitG07ckElk9nb+syRzX7bUCNn9+M8Apu0XxPpNH4XufsK68oY/Hd9flwNebJo31EIXCr96kL758k371+vTpBl2Ext8+e3qaXtQ5xQGkYsUrwCub5l9nlNlMNBb/anht06tgnQV1Ap62It/RcfHX8TAI07vB1ll98URSAlbQagB/8UVGuZuaPP4vKflNwna1CTyezd8yAoq1yitFgI8ojX9IcYMk9+95f4g0cyI3HCQTgpFGuHETUng2txDKD7e58Xv6ukdZzyR1SMvffIO03YTexu/AwqcvnlpuJ85FoExf9Z5giD6/9psPfk4fR0FEhsZtMcsT6ymD8YdoZJtvaoSHGxoczEw9W9/CzY29eIZpvelNPP7bYO6cF83pixuf27aiptILqCA5sinxWLH8/ZkkRuz8bh/P9zwbmYpxoM+8FpOa81r0Kz+PV2YQWDbA0poP77t5Sb4lLQBWqeczvMovSGvTyu8JLe1Mi/LjJq2kw6f5ZV5WK3Je29RT8Jw3MQYlPV3S0nt9nb7Oa1oMz8euu8d3V17nm1F7r64ohZNRDMv9YTAU+V/COUWYTTnVtqG1NYFBvzMIMATZr7aq6buZ1xeFn+umra9HKRJs+J7bI1syWTdEhIZSTZREqSiZVFDWbb1Ch7OszelVLKgImm4g9AdeJpTI6tDL1Tl+J/zL6+0FpQaC3hVLgGiQrKpzMwkYI+AcN4iAubHr44tsSVpVMCJvHO168zlOafkpwJHQAJVmhCLPLvXACFGGrSiRnKDFudrr5SIn2SG28GHQq9dMIHrZwiMULqpqRnE+4fM15x/P8Tn0bTZEIe2TSSmYY/yGYCMmA+GHoWGu35J9oqkTJiFOwLvAl9D1x8Ov0Vd2tvC33ysysOuLOaYdX9HqKjEKfd60NAdjYlzSNCW/GY4GjSk2wdoo2rZr4jx8RvmXoloTV+F9vIYPiS7UPY+YcJnS70zlyyKnBMkFWq14iYVG7qYr7I9SGpxkFKwpjqTgoPRa06Ap0dQEJG3SrfzdtFzDlhO/FyX/gjUN6X9VrrEicNHpyodw5wMm/CXZmCanSSpJwqjDtFoBJq2sVAsmC41nnU6IGa68NGSnl44jSZ5rv9sNrqxRLurHssW1cRc1p/+RzsSSw4RwLSQOy2hp6Gq7hpfAiw134VIaSEZNwQ32MUtTWowl/lF+oTlKL2j1nxlTXqSvicvod5qrBX1dYg4okZ3mBmLHqX7fwXqa9cPH6wHbPGSPXezwaYQ0QBm///2SGI6UAH1rqNIZdCdyIANo7J+4Kvq79zF9aohEmn49pZUE01Ra3PRIK/Ov/Nz0GOj06+BzU5tN3w99N/g5fWwocF5VpGS7gmgeIlvgTvjPxu98iew+lh+9fFfD5qouFuNfVM7GF9UlJ7zEwemykHlCuTdPbNCxz9xf3W/db5vXn3wR0VXI79hv79L6cVaOf7oBc8lHXhfvDfgrMlz8Twjx1rh6feMZXoJK46t6pvmYlxgoT9/54JP043SbE5Ppa01bmqUD89gFBzx2BPLR47sk/wv64/Fd6C3+BctbR/8PeP7DxCUrAAA=
+    http_version: 
+  recorded_at: Tue, 14 May 2019 14:00:00 GMT
+- request:
+    method: get
+    uri: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?d=last28days&k=LodgementDate&o=xml
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip,deflate,identity
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      Accept-Charset:
+      - ISO-8859-1,utf-8;q=0.7,*;q=0.7
+      Accept-Language:
+      - en-us,en;q=0.5
+      Cookie:
+      - ASP.NET_SessionId=ukngoetjfkzhjltej3tunjld
       Host:
       - srr-prod-icon.saas.t1cloud.com
       Connection:
@@ -326,7 +249,7 @@ http_interactions:
       Content-Type:
       - application/xml; charset=utf-8
       Date:
-      - Mon, 10 Jun 2019 05:50:46 GMT
+      - Mon, 10 Jun 2019 05:51:25 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
