@@ -5,12 +5,6 @@
   address: 163 - 169 Wongawallan Road, TAMBORINE MOUNTAIN QLD 4272
   date_scraped: '2019-05-15'
   info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328732
-- council_reference: MCU19/049
-  description: Dual Occupancy (Residential Use)
-  date_received: '2019-05-10'
-  address: 633 Knapp Creek Road, KNAPP CREEK QLD 4285
-  date_scraped: '2019-05-15'
-  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327922
 - council_reference: MCU19/050
   description: House (Residential Use)
   date_received: '2019-05-13'
@@ -59,12 +53,12 @@
   address: Regal Drive, CANUNGRA QLD 4275
   date_scraped: '2019-05-15'
   info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329147
-- council_reference: OPW19/011
-  description: Roadworks and Clearing Vegetation
-  date_received: '2019-05-10'
-  address: Hohenhaus Road, MOOGERAH QLD 4309
+- council_reference: MCU19/058
+  description: Dual Occupancy (Residential Use)
+  date_received: '2019-06-10'
+  address: 85 - 87 Climax Court, WITHEREN QLD 4275
   date_scraped: '2019-05-15'
-  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=327900
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329289
 - council_reference: OPW19/012
   description: Signage
   date_received: '2019-05-15'
@@ -107,6 +101,18 @@
   address: 18 Hawthorn Street, BEAUDESERT QLD 4285
   date_scraped: '2019-05-15'
   info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328777
+- council_reference: POS19/016
+  description: Standard Format Plan
+  date_received: '2019-06-07'
+  address: Wheatfield Street, KALBAR QLD 4309
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329234
+- council_reference: POS19/017
+  description: Standard Format Plan
+  date_received: '2019-06-10'
+  address: 144 Roberts Road, OBUM OBUM QLD 4309
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329306
 - council_reference: RAL19/017
   description: Development Permit for Reconfiguring a Lot Boundary Realignment (3
     into 3)
@@ -120,3 +126,9 @@
   address: 60 Tequesta Drive, BEAUDESERT QLD 4285
   date_scraped: '2019-05-15'
   info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=328900
+- council_reference: RAL19/019
+  description: Boundary Realignment
+  date_received: '2019-06-07'
+  address: 307 Innisplain Road, INNISPLAIN QLD 4285
+  date_scraped: '2019-05-15'
+  info_url: https://srr-prod-icon.saas.t1cloud.com/Pages/XC.Track/SearchApplication.aspx?id=329230

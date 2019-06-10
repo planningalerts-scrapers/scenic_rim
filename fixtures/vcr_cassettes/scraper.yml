@@ -12,7 +12,7 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
@@ -35,9 +35,9 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 07 Jun 2019 02:27:58 GMT
+      - Mon, 10 Jun 2019 05:50:43 GMT
       Set-Cookie:
-      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z; path=/; HttpOnly
+      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg; path=/; HttpOnly
       Vary:
       - Accept-Encoding
       X-Frame-Options:
@@ -64,13 +64,13 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
       Host:
       - srr-prod-icon.saas.t1cloud.com
       Referer:
@@ -93,7 +93,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 07 Jun 2019 02:27:58 GMT
+      - Mon, 10 Jun 2019 05:50:43 GMT
       Location:
       - "/Pages/XC.Home/Home.aspx"
       X-Frame-Options:
@@ -120,13 +120,13 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
       Host:
       - srr-prod-icon.saas.t1cloud.com
       Referer:
@@ -145,7 +145,7 @@ http_interactions:
       Content-Type:
       - text/html; charset=utf-8
       Date:
-      - Fri, 07 Jun 2019 02:27:58 GMT
+      - Mon, 10 Jun 2019 05:50:43 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
@@ -303,13 +303,13 @@ http_interactions:
       Accept:
       - "*/*"
       User-Agent:
-      - Mechanize/2.7.3 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
+      - Mechanize/2.7.6 Ruby/2.5.1p57 (http://github.com/sparklemotion/mechanize/)
       Accept-Charset:
       - ISO-8859-1,utf-8;q=0.7,*;q=0.7
       Accept-Language:
       - en-us,en;q=0.5
       Cookie:
-      - ASP.NET_SessionId=suaikkvo2ld0s1erutajro1z
+      - ASP.NET_SessionId=3mqemmsbm2j0rypmbembgecg
       Host:
       - srr-prod-icon.saas.t1cloud.com
       Connection:
@@ -326,95 +326,24 @@ http_interactions:
       Content-Type:
       - application/xml; charset=utf-8
       Date:
-      - Fri, 07 Jun 2019 02:28:01 GMT
+      - Mon, 10 Jun 2019 05:50:46 GMT
       X-Frame-Options:
       - SAMEORIGIN
       Content-Length:
-      - '58356'
+      - '69497'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>327922</ApplicationId>\r\n
+      string: "<?xml version=\"1.0\"?><NewDataSet>\r\n  <Application>\r\n    <ApplicationId>327971</ApplicationId>\r\n
         \   <ApplicationType>Material Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
-        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Dual
-        Occupancy (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/049</ReferenceNumber>\r\n
-        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>49</ReferenceNumberNumber>\r\n
-        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
-        \   <Current>C</Current>\r\n    <LodgementDate>2019-05-10T00:00:00+00:00</LodgementDate>\r\n
-        \   <ApplicationDetails>Dual Occupancy (Residential Use)</ApplicationDetails>\r\n
-        \   <OfficerId>NARENDRA.S</OfficerId>\r\n    <Officer>Narendra Singh</Officer>\r\n
-        \   <DADays>28</DADays>\r\n    <ApplicationIdS>327922</ApplicationIdS>\r\n
-        \   <Determination>\r\n      <ApplicationId>327922</ApplicationId>\r\n      <DeterminationType>Application
-        Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
-        \     <ApplicationIdS>327922</ApplicationIdS>\r\n    </Determination>\r\n
-        \   <Address>\r\n      <PropertyId>25877</PropertyId>\r\n      <ApplicationId>327922</ApplicationId>\r\n
-        \     <AssessmentId>740520120.00000</AssessmentId>\r\n      <ParcelId>27146</ParcelId>\r\n
-        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>633</StreetNumber1>\r\n
-        \     <StreetName>Knapp Creek Road</StreetName>\r\n      <StreetType />\r\n
-        \     <LocalityName>KNAPP CREEK</LocalityName>\r\n      <Postcode>4285</Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
-        \     <Line1>633 Knapp Creek Road</Line1>\r\n      <Line2>KNAPP CREEK QLD
-        4285</Line2>\r\n      <FullLegalDescription>Lot 22 SP 115823</FullLegalDescription>\r\n
-        \     <Area>336100.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327922</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <ApplicationId>327922</ApplicationId>\r\n
-        \     <PartyId>459999</PartyId>\r\n      <PersonId>459999</PersonId>\r\n      <PropertyId>327922</PropertyId>\r\n
-        \     <FamilyName>Bell</FamilyName>\r\n      <GivenName>Sandra Lynelle</GivenName>\r\n
-        \     <Gender>F</Gender>\r\n      <Title>Mrs</Title>\r\n      <PartyRole>Applicant</PartyRole>\r\n
-        \     <FullName>Mrs Sandra Lynelle Bell</FullName>\r\n      <EmailAddress>linsands60@gmail.com</EmailAddress>\r\n
-        \     <MobileNumber>0428 525 082</MobileNumber>\r\n      <Private>N</Private>\r\n
-        \     <ApplicationIdS>327922</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
-        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>327900</ApplicationId>\r\n
-        \   <ApplicationType>Operational Works</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
-        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Roadworks</SubNatureOfApplication>\r\n
-        \   <ReferenceNumber>OPW19/011</ReferenceNumber>\r\n    <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n
-        \   <ReferenceNumberNumber>11</ReferenceNumberNumber>\r\n    <StatusText>Information
-        Request Part 3</StatusText>\r\n    <Status>InfReqPt3</Status>\r\n    <Current>C</Current>\r\n
-        \   <LodgementDate>2019-05-10T00:00:00+00:00</LodgementDate>\r\n    <ApplicationDetails>Roadworks
-        and Clearing Vegetation</ApplicationDetails>\r\n    <DADays>28</DADays>\r\n
-        \   <ApplicationIdS>327900</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>327900</ApplicationId>\r\n
-        \     <DeterminationType>Information Request Part 3</DeterminationType>\r\n
-        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
-        \   </Determination>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
-        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>40972</ParcelId>\r\n
-        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
-        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
-        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
-        \     <FullLegalDescription>Lot 183 CC 952</FullLegalDescription>\r\n      <Area>658630.000000</Area>\r\n
-        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
-        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>41130</ParcelId>\r\n
-        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
-        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
-        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
-        \     <FullLegalDescription>Lot 174 SP 105800</FullLegalDescription>\r\n      <Area>2154000.000000</Area>\r\n
-        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Address>\r\n      <PropertyId>31119</PropertyId>\r\n
-        \     <ApplicationId>327900</ApplicationId>\r\n      <ParcelId>41131</ParcelId>\r\n
-        \     <Status>C</Status>\r\n      <StreetName>Hohenhaus Road</StreetName>\r\n
-        \     <StreetType />\r\n      <LocalityName>MOOGERAH</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
-        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
-        \     <Line1> Hohenhaus Road</Line1>\r\n      <Line2>MOOGERAH QLD 4309</Line2>\r\n
-        \     <FullLegalDescription>Lot 1 PER 6550</FullLegalDescription>\r\n      <Area>25.000000</Area>\r\n
-        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
-        \   </Address>\r\n    <Party>\r\n      <ApplicationId>327900</ApplicationId>\r\n
-        \     <PartyId>420715</PartyId>\r\n      <PersonId>420715</PersonId>\r\n      <PropertyId>327900</PropertyId>\r\n
-        \     <FamilyName>Site &amp; Civil Consulting</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
-        \     <FullName>Site &amp; Civil Consulting</FullName>\r\n      <EmailAddress
-        />\r\n      <TelephoneNumber>1300 654 816</TelephoneNumber>\r\n      <MobileNumber
-        />\r\n      <Private>N</Private>\r\n      <ApplicationIdS>327900</ApplicationIdS>\r\n
-        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
-        \   <ApplicationId>327971</ApplicationId>\r\n    <ApplicationType>Material
-        Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
         \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>House
         (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/050</ReferenceNumber>\r\n
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>50</ReferenceNumberNumber>\r\n
         \   <StatusText>Information Request Part 3</StatusText>\r\n    <Status>InfReqPt3</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-13T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>House (Residential Use)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
-        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>25</DADays>\r\n    <ApplicationIdS>327971</ApplicationIdS>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>28</DADays>\r\n    <ApplicationIdS>327971</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>327971</ApplicationId>\r\n      <DeterminationType>Information
         Request Part 3</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>327971</ApplicationIdS>\r\n    </Determination>\r\n
@@ -443,7 +372,7 @@ http_interactions:
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-14T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Development Permit for Reconfiguring a Lot Boundary
         Realignment (3 into 3)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
-        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>24</DADays>\r\n    <ApplicationIdS>328033</ApplicationIdS>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>27</DADays>\r\n    <ApplicationIdS>328033</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328033</ApplicationId>\r\n      <DeterminationType>Decision
         Part 5 Development Permit</DeterminationType>\r\n      <AuthorityParty>Delegated
         Authority</AuthorityParty>\r\n      <ApplicationIdS>328033</ApplicationIdS>\r\n
@@ -469,7 +398,7 @@ http_interactions:
         Part 5 Development Permit</StatusText>\r\n    <Status>DecPt5DP</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-15T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Signage</ApplicationDetails>\r\n    <OfficerId>NARENDRA.S</OfficerId>\r\n
-        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>23</DADays>\r\n    <ApplicationIdS>328139</ApplicationIdS>\r\n
+        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>26</DADays>\r\n    <ApplicationIdS>328139</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328139</ApplicationId>\r\n      <DeterminationType>Decision
         Part 5 Development Permit</DeterminationType>\r\n      <AuthorityParty>Delegated
         Authority</AuthorityParty>\r\n      <ApplicationIdS>328139</ApplicationIdS>\r\n
@@ -495,11 +424,11 @@ http_interactions:
         of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Standard
         Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/013</ReferenceNumber>\r\n
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>13</ReferenceNumberNumber>\r\n
-        \   <StatusText>Assessment</StatusText>\r\n    <Status>Assessment</Status>\r\n
+        \   <StatusText>Approved</StatusText>\r\n    <Status>Approved</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-15T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Standard Format Plan</ApplicationDetails>\r\n    <OfficerId>THOR.N</OfficerId>\r\n
-        \   <Officer>Thor Nelson</Officer>\r\n    <DADays>23</DADays>\r\n    <ApplicationIdS>328074</ApplicationIdS>\r\n
-        \   <Determination>\r\n      <ApplicationId>328074</ApplicationId>\r\n      <DeterminationType>Assessment</DeterminationType>\r\n
+        \   <Officer>Thor Nelson</Officer>\r\n    <DADays>26</DADays>\r\n    <ApplicationIdS>328074</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>328074</ApplicationId>\r\n      <DeterminationType>Approved</DeterminationType>\r\n
         \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328074</ApplicationIdS>\r\n
         \   </Determination>\r\n    <Address>\r\n      <PropertyId>14521</PropertyId>\r\n
         \     <ApplicationId>328074</ApplicationId>\r\n      <ParcelId>8137</ParcelId>\r\n
@@ -535,7 +464,7 @@ http_interactions:
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-16T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Tourist Cabins (Tourist Use)</ApplicationDetails>\r\n
         \   <OfficerId>JUDY.SA</OfficerId>\r\n    <Officer>Judy Sandmann</Officer>\r\n
-        \   <DADays>22</DADays>\r\n    <ApplicationIdS>328192</ApplicationIdS>\r\n
+        \   <DADays>25</DADays>\r\n    <ApplicationIdS>328192</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328192</ApplicationId>\r\n      <DeterminationType>Application
         Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328192</ApplicationIdS>\r\n    </Determination>\r\n
@@ -560,12 +489,12 @@ http_interactions:
         \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Electrical
         Reticulation</SubNatureOfApplication>\r\n    <ReferenceNumber>OPW19/013</ReferenceNumber>\r\n
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>13</ReferenceNumberNumber>\r\n
-        \   <StatusText>Decision Part 5</StatusText>\r\n    <Status>DecPt5</Status>\r\n
+        \   <StatusText>Decision Part 5 Development Permit</StatusText>\r\n    <Status>DecPt5DP</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-20T00:00:00+00:00</LodgementDate>\r\n
-        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>18</DADays>\r\n
+        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>21</DADays>\r\n
         \   <ApplicationIdS>328346</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328346</ApplicationId>\r\n
-        \     <DeterminationType>Decision Part 5</DeterminationType>\r\n      <AuthorityParty>Delegated
-        Authority</AuthorityParty>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
+        \     <DeterminationType>Decision Part 5 Development Permit</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328346</ApplicationIdS>\r\n
         \   </Determination>\r\n    <Address>\r\n      <PropertyId>25462</PropertyId>\r\n
         \     <ApplicationId>328346</ApplicationId>\r\n      <ParcelId>23852</ParcelId>\r\n
         \     <Status>C</Status>\r\n      <StreetNumber1>2426</StreetNumber1>\r\n
@@ -645,7 +574,7 @@ http_interactions:
         \   <StatusText>Withdrawn</StatusText>\r\n    <Status>Withdrawn</Status>\r\n
         \   <Current>P</Current>\r\n    <LodgementDate>2019-05-21T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Shed (Residential Use)</ApplicationDetails>\r\n    <OfficerId>KOBI.L</OfficerId>\r\n
-        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>17</DADays>\r\n    <ApplicationIdS>328393</ApplicationIdS>\r\n
+        \   <Officer>Kobi Lane</Officer>\r\n    <DADays>20</DADays>\r\n    <ApplicationIdS>328393</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328393</ApplicationId>\r\n      <DeterminationType>Withdrawn</DeterminationType>\r\n
         \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328393</ApplicationIdS>\r\n
         \   </Determination>\r\n    <Address>\r\n      <PropertyId>6633</PropertyId>\r\n
@@ -673,7 +602,7 @@ http_interactions:
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-22T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Food Premises (Business Use)</ApplicationDetails>\r\n
         \   <OfficerId>THOR.N</OfficerId>\r\n    <Officer>Thor Nelson</Officer>\r\n
-        \   <DADays>16</DADays>\r\n    <ApplicationIdS>328449</ApplicationIdS>\r\n
+        \   <DADays>19</DADays>\r\n    <ApplicationIdS>328449</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328449</ApplicationId>\r\n      <DeterminationType>Application
         Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328449</ApplicationIdS>\r\n    </Determination>\r\n
@@ -700,7 +629,7 @@ http_interactions:
         Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n    <Current>C</Current>\r\n
         \   <LodgementDate>2019-05-23T00:00:00+00:00</LodgementDate>\r\n    <ApplicationDetails>Minor
         Change to Approval</ApplicationDetails>\r\n    <OfficerId>JUDY.SA</OfficerId>\r\n
-        \   <Officer>Judy Sandmann</Officer>\r\n    <DADays>15</DADays>\r\n    <ApplicationIdS>328532</ApplicationIdS>\r\n
+        \   <Officer>Judy Sandmann</Officer>\r\n    <DADays>18</DADays>\r\n    <ApplicationIdS>328532</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328532</ApplicationId>\r\n      <DeterminationType>Application
         Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328532</ApplicationIdS>\r\n    </Determination>\r\n
@@ -727,7 +656,7 @@ http_interactions:
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>14</ReferenceNumberNumber>\r\n
         \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-23T00:00:00+00:00</LodgementDate>\r\n
-        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>15</DADays>\r\n
+        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>18</DADays>\r\n
         \   <ApplicationIdS>328477</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328477</ApplicationId>\r\n
         \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
         Authority</AuthorityParty>\r\n      <ApplicationIdS>328477</ApplicationIdS>\r\n
@@ -754,7 +683,7 @@ http_interactions:
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>14</ReferenceNumberNumber>\r\n
         \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-24T00:00:00+00:00</LodgementDate>\r\n
-        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>14</DADays>\r\n
+        \   <ApplicationDetails>Electrical Reticulation</ApplicationDetails>\r\n    <DADays>17</DADays>\r\n
         \   <ApplicationIdS>328563</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328563</ApplicationId>\r\n
         \     <DeterminationType>Application Part 1 Commence</DeterminationType>\r\n
         \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328563</ApplicationIdS>\r\n
@@ -782,7 +711,7 @@ http_interactions:
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-27T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
         \   <OfficerId>JUDY.SA</OfficerId>\r\n    <Officer>Judy Sandmann</Officer>\r\n
-        \   <DADays>11</DADays>\r\n    <ApplicationIdS>328663</ApplicationIdS>\r\n
+        \   <DADays>14</DADays>\r\n    <ApplicationIdS>328663</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328663</ApplicationId>\r\n      <DeterminationType>Application
         Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328663</ApplicationIdS>\r\n    </Determination>\r\n
@@ -839,7 +768,7 @@ http_interactions:
         \   <Status>Lodged</Status>\r\n    <Current>C</Current>\r\n    <LodgementDate>2019-05-28T12:10:07.8+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Building Envelope Amendment</ApplicationDetails>\r\n
         \   <OfficerId>KOBI.L</OfficerId>\r\n    <Officer>Kobi Lane</Officer>\r\n
-        \   <DADays>10</DADays>\r\n    <ApplicationIdS>328732</ApplicationIdS>\r\n
+        \   <DADays>13</DADays>\r\n    <ApplicationIdS>328732</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328732</ApplicationId>\r\n      <DeterminationType>Lodged</DeterminationType>\r\n
         \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>328732</ApplicationIdS>\r\n
         \   </Determination>\r\n    <Address>\r\n      <PropertyId>6633</PropertyId>\r\n
@@ -866,7 +795,7 @@ http_interactions:
         \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>15</ReferenceNumberNumber>\r\n
         \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-29T00:00:00+00:00</LodgementDate>\r\n
-        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>9</DADays>\r\n
+        \   <ApplicationDetails>Building Format Plan</ApplicationDetails>\r\n    <DADays>12</DADays>\r\n
         \   <ApplicationIdS>328777</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>328777</ApplicationId>\r\n
         \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
         Authority</AuthorityParty>\r\n      <ApplicationIdS>328777</ApplicationIdS>\r\n
@@ -894,7 +823,7 @@ http_interactions:
         \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-05-31T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Boundary Realignment</ApplicationDetails>\r\n    <OfficerId>NARENDRA.S</OfficerId>\r\n
-        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>7</DADays>\r\n    <ApplicationIdS>328900</ApplicationIdS>\r\n
+        \   <Officer>Narendra Singh</Officer>\r\n    <DADays>10</DADays>\r\n    <ApplicationIdS>328900</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328900</ApplicationId>\r\n      <DeterminationType>Application
         Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328900</ApplicationIdS>\r\n    </Determination>\r\n
@@ -923,7 +852,7 @@ http_interactions:
         \   <Current>C</Current>\r\n    <LodgementDate>2019-06-03T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Industry - Low Impact (Industrial Use)</ApplicationDetails>\r\n
         \   <OfficerId>NARENDRA.S</OfficerId>\r\n    <Officer>Narendra Singh</Officer>\r\n
-        \   <DADays>4</DADays>\r\n    <ApplicationIdS>328966</ApplicationIdS>\r\n
+        \   <DADays>7</DADays>\r\n    <ApplicationIdS>328966</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>328966</ApplicationId>\r\n      <DeterminationType>Application
         Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>328966</ApplicationIdS>\r\n    </Determination>\r\n
@@ -950,7 +879,7 @@ http_interactions:
         \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-06-06T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
-        \   <DADays>1</DADays>\r\n    <ApplicationIdS>329147</ApplicationIdS>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>329147</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>329147</ApplicationId>\r\n      <DeterminationType>Application
         Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>329147</ApplicationIdS>\r\n    </Determination>\r\n
@@ -985,7 +914,7 @@ http_interactions:
         \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
         \   <Current>C</Current>\r\n    <LodgementDate>2019-06-06T00:00:00+00:00</LodgementDate>\r\n
         \   <ApplicationDetails>Extension of Time for Relevant Period</ApplicationDetails>\r\n
-        \   <DADays>1</DADays>\r\n    <ApplicationIdS>329172</ApplicationIdS>\r\n
+        \   <DADays>4</DADays>\r\n    <ApplicationIdS>329172</ApplicationIdS>\r\n
         \   <Determination>\r\n      <ApplicationId>329172</ApplicationId>\r\n      <DeterminationType>Application
         Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
         \     <ApplicationIdS>329172</ApplicationIdS>\r\n    </Determination>\r\n
@@ -1005,7 +934,209 @@ http_interactions:
         Chamber Of Commerce Incorporated</FullName>\r\n      <EmailAddress>gks82@hotmail.com</EmailAddress>\r\n
         \     <TelephoneNumber />\r\n      <MobileNumber />\r\n      <Private>N</Private>\r\n
         \     <ApplicationIdS>329172</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
-        /><NewDataSet /></Application>\r\n</NewDataSet>"
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>329234</ApplicationId>\r\n
+        \   <ApplicationType>Approving Plans of Subdivision</ApplicationType>\r\n
+        \   <NatureOfApplicationType>PlanSub</NatureOfApplicationType>\r\n    <NatureOfApplication>Plans
+        of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Standard
+        Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/016</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>16</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-07T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Standard Format Plan</ApplicationDetails>\r\n    <DADays>3</DADays>\r\n
+        \   <ApplicationIdS>329234</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>329234</ApplicationId>\r\n
+        \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>329234</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>37346</PropertyId>\r\n
+        \     <ApplicationId>329234</ApplicationId>\r\n      <ParcelId>45249</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Wheatfield Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KALBAR</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Wheatfield Street</Line1>\r\n      <Line2>KALBAR QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 100 SP 210694</FullLegalDescription>\r\n      <Area>102300.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329234</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>37346</PropertyId>\r\n
+        \     <ApplicationId>329234</ApplicationId>\r\n      <ParcelId>58900</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Wheatfield Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KALBAR</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Wheatfield Street</Line1>\r\n      <Line2>KALBAR QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 102 SP 290097</FullLegalDescription>\r\n      <Area>86983.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329234</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>37346</PropertyId>\r\n
+        \     <ApplicationId>329234</ApplicationId>\r\n      <ParcelId>58961</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Wheatfield Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KALBAR</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Wheatfield Street</Line1>\r\n      <Line2>KALBAR QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 103 SP 292930</FullLegalDescription>\r\n      <Area>76266.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329234</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>37346</PropertyId>\r\n
+        \     <ApplicationId>329234</ApplicationId>\r\n      <ParcelId>59571</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetName>Wheatfield Street</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>KALBAR</LocalityName>\r\n      <Postcode>4309</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1> Wheatfield Street</Line1>\r\n      <Line2>KALBAR QLD 4309</Line2>\r\n
+        \     <FullLegalDescription>Lot 1031 SP 306730</FullLegalDescription>\r\n
+        \     <Area>71266.000000</Area>\r\n      <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329234</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>329234</ApplicationId>\r\n
+        \     <PartyId>284892</PartyId>\r\n      <PersonId>284892</PersonId>\r\n      <PropertyId>329234</PropertyId>\r\n
+        \     <FamilyName>Jersey Enterprises Pty Ltd</FamilyName>\r\n      <Title
+        />\r\n      <PartyRole>Applicant</PartyRole>\r\n      <FullName>Jersey Enterprises
+        Pty Ltd</FullName>\r\n      <EmailAddress>hugh@farmcraft.com.au</EmailAddress>\r\n
+        \     <TelephoneNumber>07 5463 7333</TelephoneNumber>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>329234</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>329230</ApplicationId>\r\n
+        \   <ApplicationType>Reconfiguring A Lot</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Boundary
+        Realignment</SubNatureOfApplication>\r\n    <ReferenceNumber>RAL19/019</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>19</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-07T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Boundary Realignment</ApplicationDetails>\r\n    <DADays>3</DADays>\r\n
+        \   <ApplicationIdS>329230</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>329230</ApplicationId>\r\n
+        \     <DeterminationType>Application Part 1 Commence</DeterminationType>\r\n
+        \     <AuthorityParty>Delegated Authority</AuthorityParty>\r\n      <ApplicationIdS>329230</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>15512</PropertyId>\r\n
+        \     <ApplicationId>329230</ApplicationId>\r\n      <ParcelId>15534</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>307</StreetNumber1>\r\n      <StreetName>Innisplain
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>INNISPLAIN</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>307 Innisplain
+        Road</Line1>\r\n      <Line2>INNISPLAIN QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        1 RP 32518</FullLegalDescription>\r\n      <Area>511310.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329230</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>15512</PropertyId>\r\n
+        \     <ApplicationId>329230</ApplicationId>\r\n      <ParcelId>15536</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>307</StreetNumber1>\r\n      <StreetName>Innisplain
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>INNISPLAIN</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>307 Innisplain
+        Road</Line1>\r\n      <Line2>INNISPLAIN QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        3 RP 32519</FullLegalDescription>\r\n      <Area>631910.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329230</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>15512</PropertyId>\r\n
+        \     <ApplicationId>329230</ApplicationId>\r\n      <ParcelId>16624</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>307</StreetNumber1>\r\n      <StreetName>Innisplain
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>INNISPLAIN</LocalityName>\r\n
+        \     <Postcode>4285</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>307 Innisplain
+        Road</Line1>\r\n      <Line2>INNISPLAIN QLD 4285</Line2>\r\n      <FullLegalDescription>Lot
+        3 RP 48589</FullLegalDescription>\r\n      <Area>459070.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329230</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>329230</ApplicationId>\r\n
+        \     <PartyId>481832</PartyId>\r\n      <PersonId>481832</PersonId>\r\n      <PropertyId>329230</PropertyId>\r\n
+        \     <FamilyName>Freedom Farm Innisplain</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>Freedom Farm Innisplain</FullName>\r\n      <Private>N</Private>\r\n
+        \     <ApplicationIdS>329230</ApplicationIdS>\r\n    </Party>\r\n  <NewDataSet
+        /><NewDataSet /></Application>\r\n  <Application>\r\n    <ApplicationId>329289</ApplicationId>\r\n
+        \   <ApplicationType>Material Change Of Use</ApplicationType>\r\n    <NatureOfApplicationType>Code</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Code</NatureOfApplication>\r\n    <SubNatureOfApplication>Dual
+        Occupancy (Residential Use)</SubNatureOfApplication>\r\n    <ReferenceNumber>MCU19/058</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>58</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Part 1 Commence</StatusText>\r\n    <Status>AppPt1Com</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-10T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Dual Occupancy (Residential Use)</ApplicationDetails>\r\n
+        \   <DADays>0</DADays>\r\n    <ApplicationIdS>329289</ApplicationIdS>\r\n
+        \   <Determination>\r\n      <ApplicationId>329289</ApplicationId>\r\n      <DeterminationType>Application
+        Part 1 Commence</DeterminationType>\r\n      <AuthorityParty>Delegated Authority</AuthorityParty>\r\n
+        \     <ApplicationIdS>329289</ApplicationIdS>\r\n    </Determination>\r\n
+        \   <Address>\r\n      <PropertyId>20671</PropertyId>\r\n      <ApplicationId>329289</ApplicationId>\r\n
+        \     <AssessmentId>1467400000.0000</AssessmentId>\r\n      <ParcelId>8184</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <SiteName />\r\n      <StreetNumber1>85</StreetNumber1>\r\n
+        \     <StreetNumber2>87</StreetNumber2>\r\n      <StreetName>Climax Court</StreetName>\r\n
+        \     <StreetType />\r\n      <LocalityName>WITHEREN</LocalityName>\r\n      <Postcode>4275</Postcode>\r\n
+        \     <CountryName>Australia</CountryName>\r\n      <StateTerritory>QLD</StateTerritory>\r\n
+        \     <Line1>85  - 87 Climax Court</Line1>\r\n      <Line2>WITHEREN QLD 4275</Line2>\r\n
+        \     <FullLegalDescription>Lot 17 RP 169353</FullLegalDescription>\r\n      <Area>20110.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329289</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>329289</ApplicationId>\r\n
+        \     <PartyId>429015</PartyId>\r\n      <PersonId>429015</PersonId>\r\n      <PropertyId>329289</PropertyId>\r\n
+        \     <FamilyName>The Certifier Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>The Certifier Pty Ltd</FullName>\r\n      <EmailAddress />\r\n
+        \     <TelephoneNumber>07 3821 8777</TelephoneNumber>\r\n      <MobileNumber
+        />\r\n      <Private>N</Private>\r\n      <ApplicationIdS>329289</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n  <Application>\r\n
+        \   <ApplicationId>329306</ApplicationId>\r\n    <ApplicationType>Approving
+        Plans of Subdivision</ApplicationType>\r\n    <NatureOfApplicationType>PlanSub</NatureOfApplicationType>\r\n
+        \   <NatureOfApplication>Plans of Subdivision</NatureOfApplication>\r\n    <SubNatureOfApplication>Standard
+        Format Plan</SubNatureOfApplication>\r\n    <ReferenceNumber>POS19/017</ReferenceNumber>\r\n
+        \   <ReferenceNumberYear>2019</ReferenceNumberYear>\r\n    <ReferenceNumberNumber>17</ReferenceNumberNumber>\r\n
+        \   <StatusText>Application Lodged</StatusText>\r\n    <Status>AppLodge</Status>\r\n
+        \   <Current>C</Current>\r\n    <LodgementDate>2019-06-10T00:00:00+00:00</LodgementDate>\r\n
+        \   <ApplicationDetails>Standard Format Plan</ApplicationDetails>\r\n    <DADays>0</DADays>\r\n
+        \   <ApplicationIdS>329306</ApplicationIdS>\r\n    <Determination>\r\n      <ApplicationId>329306</ApplicationId>\r\n
+        \     <DeterminationType>Application Lodged</DeterminationType>\r\n      <AuthorityParty>Delegated
+        Authority</AuthorityParty>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Determination>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>38912</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>111900.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>38914</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>243110.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>38915</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>161600.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>43118</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>160900.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>43119</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>344600.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>59278</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>456496.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Address>\r\n      <PropertyId>34947</PropertyId>\r\n
+        \     <ApplicationId>329306</ApplicationId>\r\n      <ParcelId>59279</ParcelId>\r\n
+        \     <Status>C</Status>\r\n      <StreetNumber1>144</StreetNumber1>\r\n      <StreetName>Roberts
+        Road</StreetName>\r\n      <StreetType />\r\n      <LocalityName>OBUM OBUM</LocalityName>\r\n
+        \     <Postcode>4309</Postcode>\r\n      <CountryName>Australia</CountryName>\r\n
+        \     <StateTerritory>QLD</StateTerritory>\r\n      <Line1>144 Roberts Road</Line1>\r\n
+        \     <Line2>OBUM OBUM QLD 4309</Line2>\r\n      <FullLegalDescription>L1
+        RP21243 L10 SP177114 L14-15 SP296258</FullLegalDescription>\r\n      <Area>140600.000000</Area>\r\n
+        \     <AreaUnits>SqM</AreaUnits>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Address>\r\n    <Party>\r\n      <ApplicationId>329306</ApplicationId>\r\n
+        \     <PartyId>456236</PartyId>\r\n      <PersonId>456236</PersonId>\r\n      <PropertyId>329306</PropertyId>\r\n
+        \     <FamilyName>SJ Grehan Surveys Pty Ltd</FamilyName>\r\n      <PartyRole>Applicant</PartyRole>\r\n
+        \     <FullName>SJ Grehan Surveys Pty Ltd</FullName>\r\n      <EmailAddress>stephenjgrehan@hotmail.com</EmailAddress>\r\n
+        \     <TelephoneNumber>07 3857 3629</TelephoneNumber>\r\n      <MobileNumber>0416
+        189 058</MobileNumber>\r\n      <Private>N</Private>\r\n      <ApplicationIdS>329306</ApplicationIdS>\r\n
+        \   </Party>\r\n  <NewDataSet /><NewDataSet /></Application>\r\n</NewDataSet>"
     http_version: 
   recorded_at: Tue, 14 May 2019 14:00:00 GMT
 recorded_with: VCR 5.0.0
