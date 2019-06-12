@@ -1,11 +1,2 @@
-Scenic Rim Regional council scraper
------------------------------------
-
-This site is a typical .NET ICON site
-* Terms to agreed - Yes
-* Cookie - Yes
-* XML - Yes
-
-
-Enjoy
-
+This scraper has been merged into https://github.com/planningalerts-scrapers/multiple_icon
+with authority_label scenic_rim
